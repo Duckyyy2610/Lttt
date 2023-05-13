@@ -24,7 +24,10 @@ def build_huffman_tree(symbol_probabilities):
         parent = Node(symbol_probabilities, left.probability + right.probability)
         parent.left = left
         parent.right = right
-        nodes.insert(0, parent)
+        if len(nodes) > 2:
+            nodes.append(parent)
+        else:
+            nodes.insert(0, parent) #do chỉ còn 2 phần tử nên cần giữ đúng thứ tự k sắp xếp
     return nodes[0]
 
 
