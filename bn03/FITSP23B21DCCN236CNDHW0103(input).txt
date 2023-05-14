@@ -1,0 +1,50 @@
+Test case 1:
+{
+    	'codename': 'C',
+    	'codewords': ['1','01','001','000']
+}
+Test case 2:
+{
+    	'codename': 'C',
+    	'codewords': ['000', '001', '100', '101']
+}
+Test case 3:
+{
+    	'codename': 'C',
+    	'codewords': ['01', '00', '110']
+}
+Test case 4:
+{
+    	'codename': 'C',
+    	'codewords': ['110', '011', '000', '101']
+}
+Test case 5:
+{
+    	'codename': 'C',
+    	'codewords': ['1100', '0011', '0001', '1011']
+}
+Test case 6:
+{
+    	'codename': 'C',
+    	'codewords': ['11010', '00111', '00011', '11011','11111']
+}
+Test case 7:
+{
+    	'codename': 'C',
+    	'codewords': ['1','01','0001','000']
+}
+Test case 8:
+{
+	'codename': 'C',
+      'codewords':['001','100','010']
+}
+Test case 9:
+{
+    	'codename': 'C',
+    	'codewords': ['110110', '001111', '000111', '11011','111111']
+}
+Test case 10:
+{
+    	'codename': 'C',
+    	'codewords': ['110100', '001111', '000110', '1100011','111101','0101011']
+}

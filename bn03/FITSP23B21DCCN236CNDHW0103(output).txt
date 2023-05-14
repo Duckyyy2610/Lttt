@@ -1,0 +1,109 @@
+Test case 1: 
+	{'codename': 'C', 'codewords': ['1', '01', '001', '000']}
+	Bo ma khong phai la ma deu
+	Bo ma la ma khong suy bien
+	Bo ma khong phai la ma co kha nang giai ma duy nhat
+	Bo ma la ma prefix
+	Bo ma khong phai la ma khoi tuyen tinh
+	Bo ma khong phai la mot he co so
+	Bo ma khong phai la ma vong (ma cyclic)
+	Voi 2 bo ma bat ky chung khong phai la hoan vi cua nhau
+
+Test case 2: 
+	{'codename': 'C', 'codewords': ['000', '001', '100', '101']}
+	Bo ma la ma deu
+	Bo ma la ma khong suy bien
+	Bo ma la ma co kha nang giai ma duy nhat
+	Bo ma la ma prefix
+	Bo ma la ma khoi tuyen tinh
+	Bo ma la mot he co so
+	Bo ma khong phai la ma vong (ma cyclic)
+	Voi 2 bo ma bat ky chung khong phai la hoan vi cua nhau
+
+Test case 3: 
+	{'codename': 'C', 'codewords': ['01', '00', '110']}
+	Bo ma khong phai la ma deu
+	Bo ma la ma khong suy bien
+	Bo ma la ma co kha nang giai ma duy nhat
+	Bo ma la ma prefix
+	Bo ma khong phai la ma khoi tuyen tinh
+	Bo ma khong phai la mot he co so
+	Bo ma khong phai la ma vong (ma cyclic)
+	Voi 2 bo ma bat ky chung khong phai la hoan vi cua nhau
+
+Test case 4: 
+	{'codename': 'C', 'codewords': ['110', '011', '000', '101']}
+	Bo ma la ma deu
+	Bo ma la ma khong suy bien
+	Bo ma la ma co kha nang giai ma duy nhat
+	Bo ma la ma prefix
+	Bo ma la ma khoi tuyen tinh
+	Bo ma la mot he co so
+	Bo ma la ma vong (ma cyclic)
+	Voi 2 bo ma bat ky chung khong phai la hoan vi cua nhau
+
+Test case 5: 
+	{'codename': 'C', 'codewords': ['1100', '0011', '0001', '1011']}
+	Bo ma la ma deu
+	Bo ma la ma khong suy bien
+	Bo ma la ma co kha nang giai ma duy nhat
+	Bo ma la ma prefix
+	Bo ma khong phai la ma khoi tuyen tinh
+	Bo ma la mot he co so
+	Bo ma khong phai la ma vong (ma cyclic)
+	Voi 2 bo ma bat ky chung khong phai la hoan vi cua nhau
+
+Test case 6: 
+	{'codename': 'C', 'codewords': ['11010', '00111', '00011', '11011', '11111']}
+	Bo ma la ma deu
+	Bo ma la ma khong suy bien
+	Bo ma la ma co kha nang giai ma duy nhat
+	Bo ma la ma prefix
+	Bo ma khong phai la ma khoi tuyen tinh
+	Bo ma la mot he co so
+	Bo ma khong phai la ma vong (ma cyclic)
+	Voi 2 bo ma bat ky chung khong phai la hoan vi cua nhau
+
+Test case 7: 
+	{'codename': 'C', 'codewords': ['1', '01', '0001', '000']}
+	Bo ma khong phai la ma deu
+	Bo ma la ma khong suy bien
+	Bo ma khong phai la ma co kha nang giai ma duy nhat
+	Bo ma khong phai la ma prefix
+	Bo ma khong phai la ma khoi tuyen tinh
+	Bo ma khong phai la mot he co so
+	Bo ma khong phai la ma vong (ma cyclic)
+	Voi 2 bo ma bat ky chung khong phai la hoan vi cua nhau
+
+Test case 8: 
+	{'codename': 'C', 'codewords': ['001', '100', '010']}
+	Bo ma la ma deu
+	Bo ma la ma khong suy bien
+	Bo ma la ma co kha nang giai ma duy nhat
+	Bo ma la ma prefix
+	Bo ma khong phai la ma khoi tuyen tinh
+	Bo ma la mot he co so
+	Bo ma la ma vong (ma cyclic)
+	Voi 2 bo ma bat ky chung la hoan vi cua nhau
+Test case 9: 
+	{'codename': 'C', 'codewords': ['110110', '001111', '000111', '11011', '111111']}
+	Bo ma khong phai la ma deu
+	Bo ma la ma khong suy bien
+	Bo ma khong phai la ma co kha nang giai ma duy nhat
+	Bo ma khong phai la ma prefix
+	Bo ma khong phai la ma khoi tuyen tinh
+	Bo ma khong phai la mot he co so
+	Bo ma khong phai la ma vong (ma cyclic)
+	Voi 2 bo ma bat ky chung khong phai la hoan vi cua nhau
+
+Test case 10: 
+	{'codename': 'C', 'codewords': ['110100', '001111', '000110', '1100011', '111101', '0101011']}
+	Bo ma khong phai la ma deu
+	Bo ma la ma khong suy bien
+	Bo ma la ma co kha nang giai ma duy nhat
+	Bo ma la ma prefix
+	Bo ma khong phai la ma khoi tuyen tinh
+	Bo ma khong phai la mot he co so
+	Bo ma khong phai la ma vong (ma cyclic)
+	Voi 2 bo ma bat ky chung khong phai la hoan vi cua nhau
+
