@@ -74,7 +74,7 @@ if __name__=="__main__":
         IG.append({header:calculate_IG(source_entropy, dict(zip(branch_entropy_list, branch_magnitude_list)),  len(dataset[header]))})
 
     #4) Hiển thị các thông tin hoặc lưu vào file
-    with open('FITSP23B21DCCN236CNDHW0101.txt','w') as file:
+    with open('FITSP23B21DCCN236CNDHW0101.txt', 'w') as file:
         file.write("Danh sach lua chon:\n")
         for header in headers:
             if header != 'Type' or header !='Causes Respiratory Imbalance':

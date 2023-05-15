@@ -127,7 +127,7 @@ if __name__=='__main__':
     # print(c)
 
     cnt = 1
-    with open('FITSP23B21DCCN236CNDHW0104 (output)', 'w') as file:
+    with open('FITSP23B21DCCN236CNDHW0104', 'w') as file:
         #2) Kiểm tra một vec-tơ cho trước có phải là một vec-tơ mã hợp lệ
         file.write('2) Kiem tra mot vec-to cho truoc co phai la 1 vecto ma hop le\n')
         for testcase in test:

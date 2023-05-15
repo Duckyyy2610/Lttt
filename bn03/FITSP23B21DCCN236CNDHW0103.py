@@ -116,8 +116,7 @@ def is_permutation_code(codes):
     return True
 
 if __name__ == "__main__":
-    code = \
-    {
+    code = {
         'codename': 'C',
         'codewords': ['1','01','001','000']
     }
@@ -127,76 +126,121 @@ if __name__ == "__main__":
         'codewords':['001','100','010']
     }
 
-    #1) Cho biết các đặc tính cơ bản của bộ mã: đều/không đều,suy biến hay không suy biến,
-    # minh họa suy biến (nếu có), giải mã duy nhất nhay không, minh họa giải mã không duy nhất (nếu có),
-    # có tính prefix hay không, minh họa không prefix (nếu có)
-    with open('C:\\hk2\\lttt\\btl\\bn03\FITSP23B21DCCN236CNDHW0103(input).txt', 'r') as file:
-        read_file = file.readlines()
-        codename_list = []
-        codewords_list = []
-        test_file = []
-        for data in read_file:
-            if 'codewords' in data:
-                codename_list.append("""{'codename':'C',""")
-                codewords_item = ""
-                new_data = data.strip()
-                for char in new_data:
-                    if ord(char) != 97 and char != 'n':
-                        codewords_item += char
-                codewords_item += "}"
-                codewords_list.append(codewords_item)
 
-        for i in range(len(codename_list)):
-            # print(codename_list[i] + codewords_list[i])
-            test_file.append(ast.literal_eval(codename_list[i] + codewords_list[i]))
-        cnt = 1
-        with open('C:\\hk2\\lttt\\btl\\bn03\\FITSP23B21DCCN236CNDHW0103(output).txt', 'w') as file:
-            for testcase in test_file:
-                file.write("Test case " + str(cnt) +': \n')
-                file.write('\t'+str(testcase)+'\n')
-                if is_uniform_code(testcase['codewords']):
-                    file.write("\tBo ma la ma deu\n")
-                else:
-                    file.write("\tBo ma khong phai la ma deu\n")
+    # with open('C:\\hk2\\lttt\\btl\\bn03\FITSP23B21DCCN236CNDHW0103(input).txt', 'r') as file:
+    #     read_file = file.readlines()
+    #     codename_list = []
+    #     codewords_list = []
+    #     test_file = []
+    #     for data in read_file:
+    #         if 'codewords' in data:
+    #             codename_list.append("""{'codename':'C',""")
+    #             codewords_item = ""
+    #             new_data = data.strip()
+    #             for char in new_data:
+    #                 if ord(char) != 97 and char != 'n':
+    #                     codewords_item += char
+    #             codewords_item += "}"
+    #             codewords_list.append(codewords_item)
+    #
+    #     for i in range(len(codename_list)):
+    #         # print(codename_list[i] + codewords_list[i])
+    #         test_file.append(ast.literal_eval(codename_list[i] + codewords_list[i]))
+    #     cnt = 1
+    # print(test_file)
+    test = [
+    {
+        'codename': 'C',
+        'codewords': ['1', '01', '001', '000']
+    },
+    {
+        'codename': 'C',
+        'codewords': ['000', '001', '100', '101']
+    },
+    {
+        'codename': 'C',
+        'codewords': ['01', '00', '110']
+    },
+    {
+        'codename': 'C',
+        'codewords': ['110', '011', '000', '101']
+    },
+    {
+        'codename': 'C',
+        'codewords': ['1100', '0011', '0001', '1011']
+    },
+    {
+        'codename': 'C',
+        'codewords': ['11010', '00111', '00011', '11011', '11111']
+    },
+    {
+        'codename': 'C',
+        'codewords': ['1', '01', '0001', '000']
+    },
+    {
+        'codename': 'C',
+        'codewords': ['001', '100', '010']
+    },
+    {
+        'codename': 'C',
+        'codewords': ['110110', '001111', '000111', '11011', '111111']
+    },
+    {
+        'codename': 'C',
+        'codewords': ['110100', '001111', '000110', '1100011', '111101', '0101011']
+    }
+    ]
+    cnt = 1
+    with open('FITSP23B21DCCN236CNDHW0103.txt', 'w') as file:
+        for testcase in test:
+            # 1) Cho biết các đặc tính cơ bản của bộ mã: đều/không đều,suy biến hay không suy biến,
+            # minh họa suy biến (nếu có), giải mã duy nhất nhay không, minh họa giải mã không duy nhất (nếu có),
+            # có tính prefix hay không, minh họa không prefix (nếu có)
+            file.write("Test case " + str(cnt) +': \n')
+            file.write('\tInput: '+str(testcase)+'\n' + '\tOutput:\n')
+            if is_uniform_code(testcase['codewords']):
+                file.write("\t\tBo ma la ma deu\n")
+            else:
+                file.write("\t\tBo ma khong phai la ma deu\n")
 
-                if is_linearly_independent_code(testcase['codewords']):
-                    file.write("\tBo ma la ma khong suy bien\n")
-                else:
-                    file.write("\tBo ma la ma suy bien\n")
-                if is_unique_decodable_code(testcase['codewords']):
-                    file.write("\tBo ma la ma co kha nang giai ma duy nhat\n")
-                else:
-                    file.write("\tBo ma khong phai la ma co kha nang giai ma duy nhat\n")
+            if is_linearly_independent_code(testcase['codewords']):
+                file.write("\t\tBo ma la ma khong suy bien\n")
+            else:
+                file.write("\t\tBo ma la ma suy bien\n")
+            if is_unique_decodable_code(testcase['codewords']):
+                file.write("\t\tBo ma la ma co kha nang giai ma duy nhat\n")
+            else:
+                file.write("\t\tBo ma khong phai la ma co kha nang giai ma duy nhat\n")
 
-                if is_prefix_code(testcase['codewords']):
-                    file.write("\tBo ma la ma prefix\n")
-                else:
-                    file.write("\tBo ma khong phai la ma prefix\n")
+            if is_prefix_code(testcase['codewords']):
+                file.write("\t\tBo ma la ma prefix\n")
+            else:
+                file.write("\t\tBo ma khong phai la ma prefix\n")
 
-                    # 2) Bộ mã có phải là mã khối tuyến tính?
-                if is_linear_block_code(testcase['codewords']):
-                    file.write("\tBo ma la ma khoi tuyen tinh\n")
-                else:
-                    file.write("\tBo ma khong phai la ma khoi tuyen tinh\n")
+            # 2) Bộ mã có phải là mã khối tuyến tính?
+            if is_linear_block_code(testcase['codewords']):
+                file.write("\t\tBo ma la ma khoi tuyen tinh\n")
+            else:
+                file.write("\t\tBo ma khong phai la ma khoi tuyen tinh\n")
 
-                    # 3) Tập các véc-tơ mã đã cho có phải là hệ cơ sở
-                if is_basis_code(testcase['codewords']):
-                    file.write("\tBo ma la mot he co so\n")
-                else:
-                    file.write("\tBo ma khong phai la mot he co so\n")
+            # 3) Tập các véc-tơ mã đã cho có phải là hệ cơ sở
+            if is_basis_code(testcase['codewords']):
+                file.write("\t\tBo ma la mot he co so\n")
+            else:
+                file.write("\t\tBo ma khong phai la mot he co so\n")
 
-                    # 4) Bộ mã đã cho có phải mã vòng (mã cyclic) tuyến tính?
-                if is_cyclic_code(testcase['codewords']):
-                    file.write("\tBo ma la ma vong (ma cyclic)\n")
-                else:
-                    file.write("\tBo ma khong phai la ma vong (ma cyclic)\n")
+            # 4) Bộ mã đã cho có phải mã vòng (mã cyclic) tuyến tính?
+            if is_cyclic_code(testcase['codewords']):
+                file.write("\t\tBo ma la ma vong (ma cyclic)\n")
+            else:
+                file.write("\t\tBo ma khong phai la ma vong (ma cyclic)\n")
 
-                    # 5) Với hai bộ mã, chúng có phải là một (là hoán vị của nhau)
-                if is_permutation_code(testcase['codewords']):
-                    file.write("\tVoi 2 bo ma bat ky chung la hoan vi cua nhau\n")
-                else:
-                    file.write("\tVoi 2 bo ma bat ky chung khong phai la hoan vi cua nhau\n\n")
-                cnt+=1
+            # 5) Với hai bộ mã, chúng có phải là một (là hoán vị của nhau)
+            if is_permutation_code(testcase['codewords']):
+                file.write("\t\tVoi 2 bo ma bat ky chung la hoan vi cua nhau\n")
+            else:
+                file.write("\t\tVoi 2 bo ma bat ky chung khong phai la hoan vi cua nhau\n\n")
+            cnt+=1
 
 
 
