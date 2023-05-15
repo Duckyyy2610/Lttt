@@ -47,13 +47,20 @@ def is_prefix_code(codes):
 def is_linear_block_code(codes):
     if not is_uniform_code(codes):
         return False
+    check = 0
+    for i in range(len(codes)):
+        counter = collections.Counter(codes[i])
+        if counter['0'] and not counter['1']:
+            check = 1
+    if not check:
+        return False
     codeset = set(codes)
     for code_1 in codes:
         for code_2 in codes:
             if code_1 != code_2:
                 code = ""
                 for i in range(len(code_1)):
-                    code = str(int(code_1[i])^int(code_2[i])) +code
+                    code += str(int(code_1[i])^int(code_2[i]))
                 if code not in codeset:
                     return False
     return True
