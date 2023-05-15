@@ -1,0 +1,18 @@
+Danh sach lua chon:
+Dehydration.1, Medicine Overdose.1, Acidious.1, Cold .1, Cough.1, Type, Temperature, Heart Rate, Pulse, BPSYS, BPDIA, Respiratory Rate, Oxygen Saturation, PH, Causes Respiratory Imbalance, 
+
+{
+	'Dehydration.1': 0.16367516133195545
+	'Medicine Overdose.1': 0.18114626448210563
+	'Acidious.1': 0.17714155552559052
+	'Cold .1': 0.15175701735473618
+	'Cough.1': 0.16124726315568738
+	'Temperature': 0.37550941759754874
+	'Heart Rate': 0.3849202263808678
+	'Pulse': 0.5791841420637818
+	'BPSYS': 0.34373346448024533
+	'BPDIA': 0.27004524218991066
+	'Respiratory Rate': 0.4783391525213988
+	'Oxygen Saturation': 2.1916558623820435
+	'PH': 0.47792295256027617
+}
