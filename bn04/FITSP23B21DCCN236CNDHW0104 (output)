@@ -1,3 +1,388 @@
+2) Kiem tra mot vec-to cho truoc co phai la 1 vecto ma hop le
+Test case 1:
+	Input: [0, 0, 0, 0, 0, 0, 0]
+	Output: La tu ma hop le
+Test case 2:
+	Input: [0, 0, 0, 0, 0, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 3:
+	Input: [0, 0, 0, 0, 0, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 4:
+	Input: [0, 0, 0, 0, 0, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 5:
+	Input: [0, 0, 0, 0, 1, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 6:
+	Input: [0, 0, 0, 0, 1, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 7:
+	Input: [0, 0, 0, 0, 1, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 8:
+	Input: [0, 0, 0, 0, 1, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 9:
+	Input: [0, 0, 0, 1, 0, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 10:
+	Input: [0, 0, 0, 1, 0, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 11:
+	Input: [0, 0, 0, 1, 0, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 12:
+	Input: [0, 0, 0, 1, 0, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 13:
+	Input: [0, 0, 0, 1, 1, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 14:
+	Input: [0, 0, 0, 1, 1, 0, 1]
+	Output: La tu ma hop le
+Test case 15:
+	Input: [0, 0, 0, 1, 1, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 16:
+	Input: [0, 0, 0, 1, 1, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 17:
+	Input: [0, 0, 1, 0, 0, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 18:
+	Input: [0, 0, 1, 0, 0, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 19:
+	Input: [0, 0, 1, 0, 0, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 20:
+	Input: [0, 0, 1, 0, 0, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 21:
+	Input: [0, 0, 1, 0, 1, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 22:
+	Input: [0, 0, 1, 0, 1, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 23:
+	Input: [0, 0, 1, 0, 1, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 24:
+	Input: [0, 0, 1, 0, 1, 1, 1]
+	Output: La tu ma hop le
+Test case 25:
+	Input: [0, 0, 1, 1, 0, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 26:
+	Input: [0, 0, 1, 1, 0, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 27:
+	Input: [0, 0, 1, 1, 0, 1, 0]
+	Output: La tu ma hop le
+Test case 28:
+	Input: [0, 0, 1, 1, 0, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 29:
+	Input: [0, 0, 1, 1, 1, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 30:
+	Input: [0, 0, 1, 1, 1, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 31:
+	Input: [0, 0, 1, 1, 1, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 32:
+	Input: [0, 0, 1, 1, 1, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 33:
+	Input: [0, 1, 0, 0, 0, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 34:
+	Input: [0, 1, 0, 0, 0, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 35:
+	Input: [0, 1, 0, 0, 0, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 36:
+	Input: [0, 1, 0, 0, 0, 1, 1]
+	Output: La tu ma hop le
+Test case 37:
+	Input: [0, 1, 0, 0, 1, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 38:
+	Input: [0, 1, 0, 0, 1, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 39:
+	Input: [0, 1, 0, 0, 1, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 40:
+	Input: [0, 1, 0, 0, 1, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 41:
+	Input: [0, 1, 0, 1, 0, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 42:
+	Input: [0, 1, 0, 1, 0, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 43:
+	Input: [0, 1, 0, 1, 0, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 44:
+	Input: [0, 1, 0, 1, 0, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 45:
+	Input: [0, 1, 0, 1, 1, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 46:
+	Input: [0, 1, 0, 1, 1, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 47:
+	Input: [0, 1, 0, 1, 1, 1, 0]
+	Output: La tu ma hop le
+Test case 48:
+	Input: [0, 1, 0, 1, 1, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 49:
+	Input: [0, 1, 1, 0, 0, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 50:
+	Input: [0, 1, 1, 0, 0, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 51:
+	Input: [0, 1, 1, 0, 0, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 52:
+	Input: [0, 1, 1, 0, 0, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 53:
+	Input: [0, 1, 1, 0, 1, 0, 0]
+	Output: La tu ma hop le
+Test case 54:
+	Input: [0, 1, 1, 0, 1, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 55:
+	Input: [0, 1, 1, 0, 1, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 56:
+	Input: [0, 1, 1, 0, 1, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 57:
+	Input: [0, 1, 1, 1, 0, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 58:
+	Input: [0, 1, 1, 1, 0, 0, 1]
+	Output: La tu ma hop le
+Test case 59:
+	Input: [0, 1, 1, 1, 0, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 60:
+	Input: [0, 1, 1, 1, 0, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 61:
+	Input: [0, 1, 1, 1, 1, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 62:
+	Input: [0, 1, 1, 1, 1, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 63:
+	Input: [0, 1, 1, 1, 1, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 64:
+	Input: [0, 1, 1, 1, 1, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 65:
+	Input: [1, 0, 0, 0, 0, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 66:
+	Input: [1, 0, 0, 0, 0, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 67:
+	Input: [1, 0, 0, 0, 0, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 68:
+	Input: [1, 0, 0, 0, 0, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 69:
+	Input: [1, 0, 0, 0, 1, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 70:
+	Input: [1, 0, 0, 0, 1, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 71:
+	Input: [1, 0, 0, 0, 1, 1, 0]
+	Output: La tu ma hop le
+Test case 72:
+	Input: [1, 0, 0, 0, 1, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 73:
+	Input: [1, 0, 0, 1, 0, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 74:
+	Input: [1, 0, 0, 1, 0, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 75:
+	Input: [1, 0, 0, 1, 0, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 76:
+	Input: [1, 0, 0, 1, 0, 1, 1]
+	Output: La tu ma hop le
+Test case 77:
+	Input: [1, 0, 0, 1, 1, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 78:
+	Input: [1, 0, 0, 1, 1, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 79:
+	Input: [1, 0, 0, 1, 1, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 80:
+	Input: [1, 0, 0, 1, 1, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 81:
+	Input: [1, 0, 1, 0, 0, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 82:
+	Input: [1, 0, 1, 0, 0, 0, 1]
+	Output: La tu ma hop le
+Test case 83:
+	Input: [1, 0, 1, 0, 0, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 84:
+	Input: [1, 0, 1, 0, 0, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 85:
+	Input: [1, 0, 1, 0, 1, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 86:
+	Input: [1, 0, 1, 0, 1, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 87:
+	Input: [1, 0, 1, 0, 1, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 88:
+	Input: [1, 0, 1, 0, 1, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 89:
+	Input: [1, 0, 1, 1, 0, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 90:
+	Input: [1, 0, 1, 1, 0, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 91:
+	Input: [1, 0, 1, 1, 0, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 92:
+	Input: [1, 0, 1, 1, 0, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 93:
+	Input: [1, 0, 1, 1, 1, 0, 0]
+	Output: La tu ma hop le
+Test case 94:
+	Input: [1, 0, 1, 1, 1, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 95:
+	Input: [1, 0, 1, 1, 1, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 96:
+	Input: [1, 0, 1, 1, 1, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 97:
+	Input: [1, 1, 0, 0, 0, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 98:
+	Input: [1, 1, 0, 0, 0, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 99:
+	Input: [1, 1, 0, 0, 0, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 100:
+	Input: [1, 1, 0, 0, 0, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 101:
+	Input: [1, 1, 0, 0, 1, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 102:
+	Input: [1, 1, 0, 0, 1, 0, 1]
+	Output: La tu ma hop le
+Test case 103:
+	Input: [1, 1, 0, 0, 1, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 104:
+	Input: [1, 1, 0, 0, 1, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 105:
+	Input: [1, 1, 0, 1, 0, 0, 0]
+	Output: La tu ma hop le
+Test case 106:
+	Input: [1, 1, 0, 1, 0, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 107:
+	Input: [1, 1, 0, 1, 0, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 108:
+	Input: [1, 1, 0, 1, 0, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 109:
+	Input: [1, 1, 0, 1, 1, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 110:
+	Input: [1, 1, 0, 1, 1, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 111:
+	Input: [1, 1, 0, 1, 1, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 112:
+	Input: [1, 1, 0, 1, 1, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 113:
+	Input: [1, 1, 1, 0, 0, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 114:
+	Input: [1, 1, 1, 0, 0, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 115:
+	Input: [1, 1, 1, 0, 0, 1, 0]
+	Output: La tu ma hop le
+Test case 116:
+	Input: [1, 1, 1, 0, 0, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 117:
+	Input: [1, 1, 1, 0, 1, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 118:
+	Input: [1, 1, 1, 0, 1, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 119:
+	Input: [1, 1, 1, 0, 1, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 120:
+	Input: [1, 1, 1, 0, 1, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 121:
+	Input: [1, 1, 1, 1, 0, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 122:
+	Input: [1, 1, 1, 1, 0, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 123:
+	Input: [1, 1, 1, 1, 0, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 124:
+	Input: [1, 1, 1, 1, 0, 1, 1]
+	Output: Khong la tu ma hop le
+Test case 125:
+	Input: [1, 1, 1, 1, 1, 0, 0]
+	Output: Khong la tu ma hop le
+Test case 126:
+	Input: [1, 1, 1, 1, 1, 0, 1]
+	Output: Khong la tu ma hop le
+Test case 127:
+	Input: [1, 1, 1, 1, 1, 1, 0]
+	Output: Khong la tu ma hop le
+Test case 128:
+	Input: [1, 1, 1, 1, 1, 1, 1]
+	Output: La tu ma hop le
 3) Cac tu ma cua bo ma la:
 0 0 0 0 0 0 0 
 1 0 1 0 0 0 1 

@@ -105,16 +105,12 @@ if __name__=='__main__':
                   [0,1,0,1,1,1,0],
                   [0,0,1,0,1,1,1]])
 
-    code = [[1, 1, 0, 1, 1, 1, 1]]
+
     #1) Tìm dmin dựa theo số cột của ma trận kiểm tra H
 
-    #2) Kiểm tra một vec-tơ cho trước có phải là một vec-tơ mã hợp lệ
-    if check_valid_code(code, H):
-        print("La tu ma hop le")
-    else:
-        print("Khong la tu ma hop le")
 
-    #3) Liệt kê các từ mã cho bộ mã
+    test = binary_generate(7)
+
     for i in range(len(H[0])):
         H[0][i] ^= H[2][i]
     G = HtoG(H)
@@ -130,18 +126,30 @@ if __name__=='__main__':
         c.append(codeword)
     # print(c)
 
+    cnt = 1
     with open('FITSP23B21DCCN236CNDHW0104 (output)', 'w') as file:
-
+        #2) Kiểm tra một vec-tơ cho trước có phải là một vec-tơ mã hợp lệ
+        file.write('2) Kiem tra mot vec-to cho truoc co phai la 1 vecto ma hop le\n')
+        for testcase in test:
+            a = []
+            file.write('Test case ' + str(cnt) + ':' + '\n\tInput: ' + str(testcase) + '\n' + '\tOutput: ')
+            a.append(testcase)
+            if check_valid_code(a, H):
+                file.write("La tu ma hop le\n")
+            else:
+                file.write("Khong la tu ma hop le\n")
+            cnt += 1
+        # 3) Liệt kê các từ mã cho bộ mã
         file.write('3) Cac tu ma cua bo ma la:\n')
         for i in range(len(c)):
             for j in range(len(c[0])):
                 file.write(c[i][j] + ' ')
             file.write('\n')
 
-    #4)Tìm dmin theo định nghĩa
+        #4)Tìm dmin theo định nghĩa
         file.write('4) dmin theo dinh nghia: '+ str(hamming_distance(c))+'\n')
 
-    # 5) Tìm dmin theo tính chất của mã khối tuyến tính
+        # 5) Tìm dmin theo tính chất của mã khối tuyến tính
         if is_linear_block_code(c):
             hd = 1000000000
             for i in range(len(c)):
