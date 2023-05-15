@@ -127,18 +127,7 @@ if __name__=='__main__':
     # print(c)
 
     cnt = 1
-    with open('FITSP23B21DCCN236CNDHW0104', 'w') as file:
-        #2) Kiểm tra một vec-tơ cho trước có phải là một vec-tơ mã hợp lệ
-        file.write('2) Kiem tra mot vec-to cho truoc co phai la 1 vecto ma hop le\n')
-        for testcase in test:
-            a = []
-            file.write('Test case ' + str(cnt) + ':' + '\n\tInput: ' + str(testcase) + '\n' + '\tOutput: ')
-            a.append(testcase)
-            if check_valid_code(a, H):
-                file.write("La tu ma hop le\n")
-            else:
-                file.write("Khong la tu ma hop le\n")
-            cnt += 1
+    with open('FITSP23B21DCCN236CNDHW0104.txt', 'w') as file:
         # 3) Liệt kê các từ mã cho bộ mã
         file.write('3) Cac tu ma cua bo ma la:\n')
         for i in range(len(c)):
@@ -159,5 +148,15 @@ if __name__=='__main__':
             file.write('5) dmin theo tinh chat: ' + str(hamming_distance(c)) + '\n')
         else:
             file.write('5) dmin theo dinh nghia: ' + str(hamming_distance(c)) + '\n')
-
+        #2) Kiểm tra một vec-tơ cho trước có phải là một vec-tơ mã hợp lệ
+        file.write('2) Kiem tra mot vec-to cho truoc co phai la 1 vecto ma hop le\n')
+        for testcase in test:
+            a = []
+            file.write('Test case ' + str(cnt) + ':' + '\n\tInput: ' + str(testcase) + '\n' + '\tOutput: ')
+            a.append(testcase)
+            if check_valid_code(a, H):
+                file.write("La tu ma hop le\n")
+            else:
+                file.write("Khong la tu ma hop le\n")
+            cnt += 1
 

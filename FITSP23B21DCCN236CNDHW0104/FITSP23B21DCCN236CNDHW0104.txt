@@ -1,3 +1,22 @@
+3) Cac tu ma cua bo ma la:
+0 0 0 0 0 0 0 
+1 0 1 0 0 0 1 
+1 1 1 0 0 1 0 
+0 1 0 0 0 1 1 
+0 1 1 0 1 0 0 
+1 1 0 0 1 0 1 
+1 0 0 0 1 1 0 
+0 0 1 0 1 1 1 
+1 1 0 1 0 0 0 
+0 1 1 1 0 0 1 
+0 0 1 1 0 1 0 
+1 0 0 1 0 1 1 
+1 0 1 1 1 0 0 
+0 0 0 1 1 0 1 
+0 1 0 1 1 1 0 
+1 1 1 1 1 1 1 
+4) dmin theo dinh nghia: 3
+5) dmin theo tinh chat: 3
 2) Kiem tra mot vec-to cho truoc co phai la 1 vecto ma hop le
 Test case 1:
 	Input: [0, 0, 0, 0, 0, 0, 0]
@@ -383,22 +402,3 @@ Test case 127:
 Test case 128:
 	Input: [1, 1, 1, 1, 1, 1, 1]
 	Output: La tu ma hop le
-3) Cac tu ma cua bo ma la:
-0 0 0 0 0 0 0 
-1 0 1 0 0 0 1 
-1 1 1 0 0 1 0 
-0 1 0 0 0 1 1 
-0 1 1 0 1 0 0 
-1 1 0 0 1 0 1 
-1 0 0 0 1 1 0 
-0 0 1 0 1 1 1 
-1 1 0 1 0 0 0 
-0 1 1 1 0 0 1 
-0 0 1 1 0 1 0 
-1 0 0 1 0 1 1 
-1 0 1 1 1 0 0 
-0 0 0 1 1 0 1 
-0 1 0 1 1 1 0 
-1 1 1 1 1 1 1 
-4) dmin theo dinh nghia: 3
-5) dmin theo tinh chat: 3
