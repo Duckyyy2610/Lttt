@@ -53,7 +53,7 @@ if __name__ == '__main__':
     poly = []
     bit_repr = []
     test_1 = []
-    with open('input/FITSP23B21DCCN236CNDHW0106(input 1).txt', 'r') as file:
+    with open('FITSP23B21DCCN236CNDHW0106(input 1).txt', 'r') as file:
         file = file.readlines()
         for testcase in file:
             digit = ''
@@ -79,7 +79,7 @@ if __name__ == '__main__':
             poly.append(poly_)
             bit_repr.append(bit_repr_)
     # print(len(test))
-    with open('output/FITSP23B21DCCN236CNDHW0106(output 1).txt', 'w') as file:
+    with open('FITSP23B21DCCN236CNDHW0106(output 1).txt', 'w') as file:
         file.write('1) Liet ke tat ca cac da thuc bat kha quy\n')
         for i in range(len(test_1)):
             file.write(f'\nTest case {i+1}:')
@@ -100,11 +100,11 @@ if __name__ == '__main__':
     poly_transform = []
     for testcase in test_2:
         poly_transform.append(Poly(testcase, x, domain='GF(2)').as_expr())
-    with open('input/FITSP23B21DCCN236CNDHW0106(input 2).txt', 'w') as file:
+    with open('FITSP23B21DCCN236CNDHW0106(input 2).txt', 'w') as file:
         for i in range(len(test_2)):
             file.write(f'Test case {i + 1} : {test_2[i]}\n')
 
-    with open('output/FITSP23B21DCCN236CNDHW0106(output 2).txt', 'w') as file:
+    with open('FITSP23B21DCCN236CNDHW0106(output 2).txt', 'w') as file:
         file.write('2) Kiem tra mot da thuc cho truoc co phai toi gian hay khong\n')
         for i in range(len(test_2)):
             file.write(f'\nTest case {i + 1}:')
@@ -115,7 +115,7 @@ if __name__ == '__main__':
     # 3) Phân tích x^n+1 thành các nhân tử tối giản
 
     test_3 = []
-    with open('input/FITSP23B21DCCN236CNDHW0106(input 3).txt','r') as file:
+    with open('FITSP23B21DCCN236CNDHW0106(input 3).txt', 'r') as file:
         file = file.readlines()
         for testcase in file:
             digit = ''
@@ -125,7 +125,7 @@ if __name__ == '__main__':
                 if testcase[i] == ' ':
                     break
             test_3.append(digit)
-    with open('output/FITSP23B21DCCN236CNDHW0106(output 3).txt', 'w') as file:
+    with open('FITSP23B21DCCN236CNDHW0106(output 3).txt', 'w') as file:
         file.write('2) Phan tich x^n + 1 thanh cac nhan tu toi gian \n')
         for i in range(len(test_3)):
             file.write(f'\nTest case {i + 1}:')
@@ -135,7 +135,7 @@ if __name__ == '__main__':
     test_4 = []
     poly_2 = []
     bit_repr_2 = []
-    with open('input/FITSP23B21DCCN236CNDHW0106(input 4).txt', 'r') as file:
+    with open('FITSP23B21DCCN236CNDHW0106(input 4).txt', 'r') as file:
         file = file.readlines()
         for testcase in file:
             digit = ''
@@ -176,7 +176,7 @@ if __name__ == '__main__':
     for bin_ in bin_poly_sort:
         poly_transform.add(Poly([int(poly) for poly in bin_], x, domain='GF(2)'))
     poly_transform_sort = sorted(poly_transform,key=lambda poly: poly.degree())
-    with open('output/FITSP23B21DCCN236CNDHW0106(output 4).txt', 'w') as file:
+    with open('FITSP23B21DCCN236CNDHW0106(output 4).txt', 'w') as file:
         file.write('4) Liet ke tat ca cac nhan tu uoc so phan biet cua x^n + 1')
         for i in range(len(test_4)):
             poly_root = Poly(x**(int(test_4[i])) + 1,x)
