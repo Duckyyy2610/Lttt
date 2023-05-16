@@ -1,62 +1,62 @@
 4) Liet ke tat ca cac nhan tu uoc so phan biet cua x^n + 1
 Test case 1:
 
- 	Input: Da thu x**8 + 1
+ 	Input: Da thuc x**8 + 1
 	Output: 
 	 isReverse = 0
 	 (1)
-	 (x**4 + 1)
-	 (x**2 + 1)
-	 (x**5 + x**4 + x + 1)
-	 (x**7 + x**6 + x**5 + x**4 + x**3 + x**2 + x + 1)
-	 (x**3 + x**2 + x + 1)
-	 (x**8 + 1)
 	 (x + 1)
+	 (x**2 + 1)
+	 (x**3 + x**2 + x + 1)
+	 (x**4 + 1)
+	 (x**5 + x**4 + x + 1)
 	 (x**6 + x**4 + x**2 + 1)
+	 (x**7 + x**6 + x**5 + x**4 + x**3 + x**2 + x + 1)
+	 (x**8 + 1)
 
 Test case 2:
 
- 	Input: Da thu x**7 + 1
+ 	Input: Da thuc x**7 + 1
 	Output: 
 	 isReverse = 0
 	 (1)
-	 (x**3 + x + 1)
-	 (x**4 + x**2 + x + 1)
 	 (x + 1)
 	 (x**3 + x**2 + 1)
-	 (x**6 + x**5 + x**4 + x**3 + x**2 + x + 1)
+	 (x**3 + x + 1)
+	 (x**4 + x**2 + x + 1)
 	 (x**4 + x**3 + x**2 + 1)
+	 (x**6 + x**5 + x**4 + x**3 + x**2 + x + 1)
 	 (x**7 + 1)
 
 Test case 3:
 
- 	Input: Da thu x**10 + 1
+ 	Input: Da thuc x**10 + 1
 	Output: 
 	 isReverse = 0
 	 (1)
-	 (x**2 + 1)
-	 (x**10 + 1)
-	 (x**4 + x**3 + x**2 + x + 1)
-	 (x**9 + x**8 + x**7 + x**6 + x**5 + x**4 + x**3 + x**2 + x + 1)
-	 (x**8 + x**6 + x**4 + x**2 + 1)
-	 (x**5 + 1)
 	 (x + 1)
+	 (x**2 + 1)
+	 (x**4 + x**3 + x**2 + x + 1)
+	 (x**5 + 1)
 	 (x**6 + x**5 + x + 1)
+	 (x**8 + x**6 + x**4 + x**2 + 1)
+	 (x**9 + x**8 + x**7 + x**6 + x**5 + x**4 + x**3 + x**2 + x + 1)
+	 (x**10 + 1)
 
 Test case 4:
 
- 	Input: Da thu x**4 + 1
+ 	Input: Da thuc x**4 + 1
 	Output: 
 	 isReverse = 0
 	 (1)
-	 (x**4 + 1)
+	 (x + 1)
 	 (x**2 + 1)
 	 (x**3 + x**2 + x + 1)
-	 (x + 1)
+	 (x**4 + 1)
 
 Test case 5:
 
- 	Input: Da thu x + 1
+ 	Input: Da thuc x + 1
 	Output: 
 	 isReverse = 0
 	 (1)
@@ -64,58 +64,58 @@ Test case 5:
 
 Test case 6:
 
- 	Input: Da thu x**6 + 1
+ 	Input: Da thuc x**6 + 1
 	Output: 
 	 isReverse = 0
 	 (1)
-	 (x**2 + 1)
-	 (x**5 + x**4 + x**3 + x**2 + x + 1)
-	 (x**4 + x**2 + 1)
-	 (x**3 + 1)
-	 (x**6 + 1)
 	 (x + 1)
 	 (x**2 + x + 1)
+	 (x**2 + 1)
+	 (x**3 + 1)
+	 (x**4 + x**2 + 1)
 	 (x**4 + x**3 + x + 1)
+	 (x**5 + x**4 + x**3 + x**2 + x + 1)
+	 (x**6 + 1)
 
 Test case 7:
 
- 	Input: Da thu x**3 + 1
+ 	Input: Da thuc x**3 + 1
 	Output: 
 	 isReverse = 0
 	 (1)
-	 (x**3 + 1)
 	 (x + 1)
 	 (x**2 + x + 1)
+	 (x**3 + 1)
 
 Test case 8:
 
- 	Input: Da thu x**2 + 1
+ 	Input: Da thuc x**2 + 1
 	Output: 
 	 isReverse = 0
 	 (1)
-	 (x**2 + 1)
 	 (x + 1)
+	 (x**2 + 1)
 
 Test case 9:
 
- 	Input: Da thu x**9 + 1
+ 	Input: Da thuc x**9 + 1
 	Output: 
 	 isReverse = 0
 	 (1)
-	 (x**7 + x**6 + x**4 + x**3 + x + 1)
-	 (x**3 + 1)
-	 (x**9 + 1)
 	 (x + 1)
 	 (x**2 + x + 1)
-	 (x**8 + x**7 + x**6 + x**5 + x**4 + x**3 + x**2 + x + 1)
+	 (x**3 + 1)
 	 (x**6 + x**3 + 1)
+	 (x**7 + x**6 + x**4 + x**3 + x + 1)
+	 (x**8 + x**7 + x**6 + x**5 + x**4 + x**3 + x**2 + x + 1)
+	 (x**9 + 1)
 
 Test case 10:
 
- 	Input: Da thu x**5 + 1
+ 	Input: Da thuc x**5 + 1
 	Output: 
 	 isReverse = 0
 	 (1)
+	 (x + 1)
 	 (x**4 + x**3 + x**2 + x + 1)
 	 (x**5 + 1)
-	 (x + 1)
