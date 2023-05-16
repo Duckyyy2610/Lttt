@@ -97,14 +97,14 @@ def calculate_variance(avg_length, probabilities, codewords):
     return variance
 
 
-def write_file(path, file_to_write, output):
-    output_path = os.path.join(path, file_to_write)
+def write_file(file_to_write, output):
+    output_path = file_to_write
     with open(output_path, 'w') as f:
         f.write(str(output))
 
 
-def write_file_2(path, file_to_write, huffman_codes, probabilities):
-    output_path = os.path.join(path, file_to_write)
+def write_file_2(file_to_write, huffman_codes, probabilities):
+    output_path = file_to_write
     elsym = list(probabilities.keys())
     elprob = [float(round(x, 5)) for x in probabilities.values()]
     elcodeword = list(dict(sorted(huffman_codes.items(), key=lambda x: x[0])).values())
@@ -148,7 +148,7 @@ if __name__ == "__main__":
     huffman_codes.clear()
 
     # 2)Sử dụng hàm ở 1) thực hiện mã hóa một văn bản ký tự đọc vào từ file *.txt
-    with open('C:\\hk2\\lttt\\btl\\FITSP23B21DCCN236CNDHW0102\input\\FITSP23B21DCCN236CNDHW0102.txt', 'r') as file:
+    with open('input/FITSP23B21DCCN236CNDHW0102.txt', 'r') as file:
         read_file = file.readlines()
         symbol_probabilities_2 = calculate_the_probability(read_file)
         root_node = build_huffman_tree(symbol_probabilities_2)
@@ -159,7 +159,7 @@ if __name__ == "__main__":
     # 3) Giải mã cho một chuỗi mã cho trước được nhập từ bàn phím hoặc đọc từ file FITSP23B21DCCN236CNDHW0102 (decode).txt;
     # Sử dụng file FITSP23B21DCCN236CNDHW0102 (a-z character).txt để lấy ví dụ các kí tự sẽ được mã hóa như nào
     huffman_codes_from_atoz = {}
-    with open('C:\\hk2\\lttt\\btl\\FITSP23B21DCCN236CNDHW0102\input\\FITSP23B21DCCN236CNDHW0102 (a-z, space, endline characters).txt',
+    with open('input/FITSP23B21DCCN236CNDHW0102 (a-z, space, endline characters).txt',
               'r') as file:
         read_file = file.readlines()
         symbol_probabilities_3 = calculate_the_probability(read_file)
@@ -168,7 +168,7 @@ if __name__ == "__main__":
         # print(huffman_codes_from_atoz)
 
     # Giải mã từ file FITSP23B21DCCN236CNDHW0102 (decode).txt
-    with open('C:\\hk2\\lttt\\btl\\FITSP23B21DCCN236CNDHW0102\input\\FITSP23B21DCCN236CNDHW0102 (decode).txt', 'r') as file:
+    with open('input/FITSP23B21DCCN236CNDHW0102 (decode).txt', 'r') as file:
         read_file = file.readlines()
         code = read_file
 
@@ -193,16 +193,16 @@ if __name__ == "__main__":
     # 4, 5) Tính toán tham số, lưu vào file và hiển thị thông tin từ hảm write_file_2
 
     # Lưu vào file phần 1
-    write_file_2('C:\\hk2\\lttt\\btl\\FITSP23B21DCCN236CNDHW0102\\output', 'FITSP23B21DCCN236CNDHW0102(output 1).txt', huffman_codes_1,
+    write_file_2('output/FITSP23B21DCCN236CNDHW0102(output 1).txt', huffman_codes_1,
                  symbol_probabilities)
 
     # Lưu vào file phần 2
-    write_file_2('C:\\hk2\\lttt\\btl\\FITSP23B21DCCN236CNDHW0102\\output', 'FITSP23B21DCCN236CNDHW0102(output 2).txt', huffman_codes_2,
+    write_file_2('output/FITSP23B21DCCN236CNDHW0102(output 2).txt', huffman_codes_2,
                  symbol_probabilities_2)
 
     # Lưu vào file phần 3
-    write_file('C:\\hk2\\lttt\\btl\\FITSP23B21DCCN236CNDHW0102\\output', 'FITSP23B21DCCN236CNDHW0102(output 3).txt', decoded_string)
+    write_file('output/FITSP23B21DCCN236CNDHW0102(output 3).txt', decoded_string)
 
     # Lưu vào file phần 3 khi đã giải mã
-    write_file_2('C:\\hk2\\lttt\\btl\\FITSP23B21DCCN236CNDHW0102\\output', 'FITSP23B21DCCN236CNDHW0102(output 4).txt',
+    write_file_2('output/FITSP23B21DCCN236CNDHW0102(output 4).txt',
                  mapping_character_and_code, symbol_probabilities_4)
