@@ -1,0 +1,6591 @@
+2) Kiem tra mot da thuc cho truoc co phai toi gian hay khong
+
+Test case 1:
+
+ 	Input: 0
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 2:
+
+ 	Input: 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 3:
+
+ 	Input: 0
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 4:
+
+ 	Input: 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 5:
+
+ 	Input: x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 6:
+
+ 	Input: x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 7:
+
+ 	Input: 0
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 8:
+
+ 	Input: 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 9:
+
+ 	Input: x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 10:
+
+ 	Input: x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 11:
+
+ 	Input: x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 12:
+
+ 	Input: x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 13:
+
+ 	Input: x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 14:
+
+ 	Input: x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 15:
+
+ 	Input: x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 16:
+
+ 	Input: x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 17:
+
+ 	Input: x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 18:
+
+ 	Input: x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 19:
+
+ 	Input: x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 20:
+
+ 	Input: x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 21:
+
+ 	Input: x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 22:
+
+ 	Input: x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 23:
+
+ 	Input: x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 24:
+
+ 	Input: x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 25:
+
+ 	Input: x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 26:
+
+ 	Input: x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 27:
+
+ 	Input: x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 28:
+
+ 	Input: x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 29:
+
+ 	Input: x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 30:
+
+ 	Input: x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 31:
+
+ 	Input: x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 32:
+
+ 	Input: x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 33:
+
+ 	Input: x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 34:
+
+ 	Input: x**4 + x**3 + x + 1
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 35:
+
+ 	Input: x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 36:
+
+ 	Input: x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 37:
+
+ 	Input: x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 38:
+
+ 	Input: x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 39:
+
+ 	Input: 0
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 40:
+
+ 	Input: 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 41:
+
+ 	Input: x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 42:
+
+ 	Input: x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 43:
+
+ 	Input: x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 44:
+
+ 	Input: x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 45:
+
+ 	Input: x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 46:
+
+ 	Input: x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 47:
+
+ 	Input: x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 48:
+
+ 	Input: x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 49:
+
+ 	Input: x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 50:
+
+ 	Input: x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 51:
+
+ 	Input: x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 52:
+
+ 	Input: x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 53:
+
+ 	Input: x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 54:
+
+ 	Input: x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 55:
+
+ 	Input: x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 56:
+
+ 	Input: x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 57:
+
+ 	Input: x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 58:
+
+ 	Input: x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 59:
+
+ 	Input: x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 60:
+
+ 	Input: x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 61:
+
+ 	Input: x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 62:
+
+ 	Input: x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 63:
+
+ 	Input: x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 64:
+
+ 	Input: x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 65:
+
+ 	Input: x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 66:
+
+ 	Input: x**4 + x**3 + x + 1
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 67:
+
+ 	Input: x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 68:
+
+ 	Input: x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 69:
+
+ 	Input: x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 70:
+
+ 	Input: x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 71:
+
+ 	Input: x**5
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 72:
+
+ 	Input: x**5 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 73:
+
+ 	Input: x**5 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 74:
+
+ 	Input: x**5 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 75:
+
+ 	Input: x**5 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 76:
+
+ 	Input: x**5 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 77:
+
+ 	Input: x**5 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 78:
+
+ 	Input: x**5 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 79:
+
+ 	Input: x**5 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 80:
+
+ 	Input: x**5 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 81:
+
+ 	Input: x**5 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 82:
+
+ 	Input: x**5 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 83:
+
+ 	Input: x**5 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 84:
+
+ 	Input: x**5 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 85:
+
+ 	Input: x**5 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 86:
+
+ 	Input: x**5 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 87:
+
+ 	Input: x**5 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 88:
+
+ 	Input: x**5 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 89:
+
+ 	Input: x**5 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 90:
+
+ 	Input: x**5 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 91:
+
+ 	Input: x**5 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 92:
+
+ 	Input: x**5 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 93:
+
+ 	Input: x**5 + x**4 + x**2 + x
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 94:
+
+ 	Input: x**5 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 95:
+
+ 	Input: x**5 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 96:
+
+ 	Input: x**5 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 97:
+
+ 	Input: x**5 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 98:
+
+ 	Input: x**5 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 99:
+
+ 	Input: x**5 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 100:
+
+ 	Input: x**5 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 101:
+
+ 	Input: x**5 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 102:
+
+ 	Input: x**5 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 103:
+
+ 	Input: x**6
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 104:
+
+ 	Input: x**6 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 105:
+
+ 	Input: x**6 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 106:
+
+ 	Input: x**6 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 107:
+
+ 	Input: x**6 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 108:
+
+ 	Input: x**6 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 109:
+
+ 	Input: x**6 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 110:
+
+ 	Input: x**6 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 111:
+
+ 	Input: x**6 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 112:
+
+ 	Input: x**6 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 113:
+
+ 	Input: x**6 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 114:
+
+ 	Input: x**6 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 115:
+
+ 	Input: x**6 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 116:
+
+ 	Input: x**6 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 117:
+
+ 	Input: x**6 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 118:
+
+ 	Input: x**6 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 119:
+
+ 	Input: x**6 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 120:
+
+ 	Input: x**6 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 121:
+
+ 	Input: x**6 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 122:
+
+ 	Input: x**6 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 123:
+
+ 	Input: x**6 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 124:
+
+ 	Input: x**6 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 125:
+
+ 	Input: x**6 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 126:
+
+ 	Input: x**6 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 127:
+
+ 	Input: x**6 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 128:
+
+ 	Input: x**6 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 129:
+
+ 	Input: x**6 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 130:
+
+ 	Input: x**6 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 131:
+
+ 	Input: x**6 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 132:
+
+ 	Input: x**6 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 133:
+
+ 	Input: x**6 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 134:
+
+ 	Input: x**6 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 135:
+
+ 	Input: x**6 + x**5
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 136:
+
+ 	Input: x**6 + x**5 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 137:
+
+ 	Input: x**6 + x**5 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 138:
+
+ 	Input: x**6 + x**5 + x + 1
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 139:
+
+ 	Input: x**6 + x**5 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 140:
+
+ 	Input: x**6 + x**5 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 141:
+
+ 	Input: x**6 + x**5 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 142:
+
+ 	Input: x**6 + x**5 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 143:
+
+ 	Input: x**6 + x**5 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 144:
+
+ 	Input: x**6 + x**5 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 145:
+
+ 	Input: x**6 + x**5 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 146:
+
+ 	Input: x**6 + x**5 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 147:
+
+ 	Input: x**6 + x**5 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 148:
+
+ 	Input: x**6 + x**5 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 149:
+
+ 	Input: x**6 + x**5 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 150:
+
+ 	Input: x**6 + x**5 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 151:
+
+ 	Input: x**6 + x**5 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 152:
+
+ 	Input: x**6 + x**5 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 153:
+
+ 	Input: x**6 + x**5 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 154:
+
+ 	Input: x**6 + x**5 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 155:
+
+ 	Input: x**6 + x**5 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 156:
+
+ 	Input: x**6 + x**5 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 157:
+
+ 	Input: x**6 + x**5 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 158:
+
+ 	Input: x**6 + x**5 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 159:
+
+ 	Input: x**6 + x**5 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 160:
+
+ 	Input: x**6 + x**5 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 161:
+
+ 	Input: x**6 + x**5 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 162:
+
+ 	Input: x**6 + x**5 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 163:
+
+ 	Input: x**6 + x**5 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 164:
+
+ 	Input: x**6 + x**5 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 165:
+
+ 	Input: x**6 + x**5 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 166:
+
+ 	Input: x**6 + x**5 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 167:
+
+ 	Input: x**7
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 168:
+
+ 	Input: x**7 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 169:
+
+ 	Input: x**7 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 170:
+
+ 	Input: x**7 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 171:
+
+ 	Input: x**7 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 172:
+
+ 	Input: x**7 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 173:
+
+ 	Input: x**7 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 174:
+
+ 	Input: x**7 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 175:
+
+ 	Input: x**7 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 176:
+
+ 	Input: x**7 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 177:
+
+ 	Input: x**7 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 178:
+
+ 	Input: x**7 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 179:
+
+ 	Input: x**7 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 180:
+
+ 	Input: x**7 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 181:
+
+ 	Input: x**7 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 182:
+
+ 	Input: x**7 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 183:
+
+ 	Input: x**7 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 184:
+
+ 	Input: x**7 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 185:
+
+ 	Input: x**7 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 186:
+
+ 	Input: x**7 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 187:
+
+ 	Input: x**7 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 188:
+
+ 	Input: x**7 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 189:
+
+ 	Input: x**7 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 190:
+
+ 	Input: x**7 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 191:
+
+ 	Input: x**7 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 192:
+
+ 	Input: x**7 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 193:
+
+ 	Input: x**7 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 194:
+
+ 	Input: x**7 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 195:
+
+ 	Input: x**7 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 196:
+
+ 	Input: x**7 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 197:
+
+ 	Input: x**7 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 198:
+
+ 	Input: x**7 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 199:
+
+ 	Input: x**7 + x**5
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 200:
+
+ 	Input: x**7 + x**5 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 201:
+
+ 	Input: x**7 + x**5 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 202:
+
+ 	Input: x**7 + x**5 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 203:
+
+ 	Input: x**7 + x**5 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 204:
+
+ 	Input: x**7 + x**5 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 205:
+
+ 	Input: x**7 + x**5 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 206:
+
+ 	Input: x**7 + x**5 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 207:
+
+ 	Input: x**7 + x**5 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 208:
+
+ 	Input: x**7 + x**5 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 209:
+
+ 	Input: x**7 + x**5 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 210:
+
+ 	Input: x**7 + x**5 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 211:
+
+ 	Input: x**7 + x**5 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 212:
+
+ 	Input: x**7 + x**5 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 213:
+
+ 	Input: x**7 + x**5 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 214:
+
+ 	Input: x**7 + x**5 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 215:
+
+ 	Input: x**7 + x**5 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 216:
+
+ 	Input: x**7 + x**5 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 217:
+
+ 	Input: x**7 + x**5 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 218:
+
+ 	Input: x**7 + x**5 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 219:
+
+ 	Input: x**7 + x**5 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 220:
+
+ 	Input: x**7 + x**5 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 221:
+
+ 	Input: x**7 + x**5 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 222:
+
+ 	Input: x**7 + x**5 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 223:
+
+ 	Input: x**7 + x**5 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 224:
+
+ 	Input: x**7 + x**5 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 225:
+
+ 	Input: x**7 + x**5 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 226:
+
+ 	Input: x**7 + x**5 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 227:
+
+ 	Input: x**7 + x**5 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 228:
+
+ 	Input: x**7 + x**5 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 229:
+
+ 	Input: x**7 + x**5 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 230:
+
+ 	Input: x**7 + x**5 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 231:
+
+ 	Input: x**7 + x**6
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 232:
+
+ 	Input: x**7 + x**6 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 233:
+
+ 	Input: x**7 + x**6 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 234:
+
+ 	Input: x**7 + x**6 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 235:
+
+ 	Input: x**7 + x**6 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 236:
+
+ 	Input: x**7 + x**6 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 237:
+
+ 	Input: x**7 + x**6 + x**2 + x
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 238:
+
+ 	Input: x**7 + x**6 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 239:
+
+ 	Input: x**7 + x**6 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 240:
+
+ 	Input: x**7 + x**6 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 241:
+
+ 	Input: x**7 + x**6 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 242:
+
+ 	Input: x**7 + x**6 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 243:
+
+ 	Input: x**7 + x**6 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 244:
+
+ 	Input: x**7 + x**6 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 245:
+
+ 	Input: x**7 + x**6 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 246:
+
+ 	Input: x**7 + x**6 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 247:
+
+ 	Input: x**7 + x**6 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 248:
+
+ 	Input: x**7 + x**6 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 249:
+
+ 	Input: x**7 + x**6 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 250:
+
+ 	Input: x**7 + x**6 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 251:
+
+ 	Input: x**7 + x**6 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 252:
+
+ 	Input: x**7 + x**6 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 253:
+
+ 	Input: x**7 + x**6 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 254:
+
+ 	Input: x**7 + x**6 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 255:
+
+ 	Input: x**7 + x**6 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 256:
+
+ 	Input: x**7 + x**6 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 257:
+
+ 	Input: x**7 + x**6 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 258:
+
+ 	Input: x**7 + x**6 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 259:
+
+ 	Input: x**7 + x**6 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 260:
+
+ 	Input: x**7 + x**6 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 261:
+
+ 	Input: x**7 + x**6 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 262:
+
+ 	Input: x**7 + x**6 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 263:
+
+ 	Input: x**7 + x**6 + x**5
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 264:
+
+ 	Input: x**7 + x**6 + x**5 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 265:
+
+ 	Input: x**7 + x**6 + x**5 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 266:
+
+ 	Input: x**7 + x**6 + x**5 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 267:
+
+ 	Input: x**7 + x**6 + x**5 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 268:
+
+ 	Input: x**7 + x**6 + x**5 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 269:
+
+ 	Input: x**7 + x**6 + x**5 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 270:
+
+ 	Input: x**7 + x**6 + x**5 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 271:
+
+ 	Input: x**7 + x**6 + x**5 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 272:
+
+ 	Input: x**7 + x**6 + x**5 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 273:
+
+ 	Input: x**7 + x**6 + x**5 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 274:
+
+ 	Input: x**7 + x**6 + x**5 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 275:
+
+ 	Input: x**7 + x**6 + x**5 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 276:
+
+ 	Input: x**7 + x**6 + x**5 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 277:
+
+ 	Input: x**7 + x**6 + x**5 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 278:
+
+ 	Input: x**7 + x**6 + x**5 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 279:
+
+ 	Input: x**7 + x**6 + x**5 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 280:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 281:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 282:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 283:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 284:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 285:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 286:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 287:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 288:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 289:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 290:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 291:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 292:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 293:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 294:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 295:
+
+ 	Input: 0
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 296:
+
+ 	Input: 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 297:
+
+ 	Input: x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 298:
+
+ 	Input: x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 299:
+
+ 	Input: x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 300:
+
+ 	Input: x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 301:
+
+ 	Input: x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 302:
+
+ 	Input: x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 303:
+
+ 	Input: x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 304:
+
+ 	Input: x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 305:
+
+ 	Input: x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 306:
+
+ 	Input: x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 307:
+
+ 	Input: x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 308:
+
+ 	Input: x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 309:
+
+ 	Input: x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 310:
+
+ 	Input: x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 311:
+
+ 	Input: x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 312:
+
+ 	Input: x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 313:
+
+ 	Input: x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 314:
+
+ 	Input: x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 315:
+
+ 	Input: x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 316:
+
+ 	Input: x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 317:
+
+ 	Input: x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 318:
+
+ 	Input: x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 319:
+
+ 	Input: x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 320:
+
+ 	Input: x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 321:
+
+ 	Input: x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 322:
+
+ 	Input: x**4 + x**3 + x + 1
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 323:
+
+ 	Input: x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 324:
+
+ 	Input: x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 325:
+
+ 	Input: x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 326:
+
+ 	Input: x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 327:
+
+ 	Input: x**5
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 328:
+
+ 	Input: x**5 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 329:
+
+ 	Input: x**5 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 330:
+
+ 	Input: x**5 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 331:
+
+ 	Input: x**5 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 332:
+
+ 	Input: x**5 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 333:
+
+ 	Input: x**5 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 334:
+
+ 	Input: x**5 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 335:
+
+ 	Input: x**5 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 336:
+
+ 	Input: x**5 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 337:
+
+ 	Input: x**5 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 338:
+
+ 	Input: x**5 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 339:
+
+ 	Input: x**5 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 340:
+
+ 	Input: x**5 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 341:
+
+ 	Input: x**5 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 342:
+
+ 	Input: x**5 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 343:
+
+ 	Input: x**5 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 344:
+
+ 	Input: x**5 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 345:
+
+ 	Input: x**5 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 346:
+
+ 	Input: x**5 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 347:
+
+ 	Input: x**5 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 348:
+
+ 	Input: x**5 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 349:
+
+ 	Input: x**5 + x**4 + x**2 + x
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 350:
+
+ 	Input: x**5 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 351:
+
+ 	Input: x**5 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 352:
+
+ 	Input: x**5 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 353:
+
+ 	Input: x**5 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 354:
+
+ 	Input: x**5 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 355:
+
+ 	Input: x**5 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 356:
+
+ 	Input: x**5 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 357:
+
+ 	Input: x**5 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 358:
+
+ 	Input: x**5 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 359:
+
+ 	Input: x**6
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 360:
+
+ 	Input: x**6 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 361:
+
+ 	Input: x**6 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 362:
+
+ 	Input: x**6 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 363:
+
+ 	Input: x**6 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 364:
+
+ 	Input: x**6 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 365:
+
+ 	Input: x**6 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 366:
+
+ 	Input: x**6 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 367:
+
+ 	Input: x**6 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 368:
+
+ 	Input: x**6 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 369:
+
+ 	Input: x**6 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 370:
+
+ 	Input: x**6 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 371:
+
+ 	Input: x**6 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 372:
+
+ 	Input: x**6 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 373:
+
+ 	Input: x**6 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 374:
+
+ 	Input: x**6 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 375:
+
+ 	Input: x**6 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 376:
+
+ 	Input: x**6 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 377:
+
+ 	Input: x**6 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 378:
+
+ 	Input: x**6 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 379:
+
+ 	Input: x**6 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 380:
+
+ 	Input: x**6 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 381:
+
+ 	Input: x**6 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 382:
+
+ 	Input: x**6 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 383:
+
+ 	Input: x**6 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 384:
+
+ 	Input: x**6 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 385:
+
+ 	Input: x**6 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 386:
+
+ 	Input: x**6 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 387:
+
+ 	Input: x**6 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 388:
+
+ 	Input: x**6 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 389:
+
+ 	Input: x**6 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 390:
+
+ 	Input: x**6 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 391:
+
+ 	Input: x**6 + x**5
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 392:
+
+ 	Input: x**6 + x**5 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 393:
+
+ 	Input: x**6 + x**5 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 394:
+
+ 	Input: x**6 + x**5 + x + 1
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 395:
+
+ 	Input: x**6 + x**5 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 396:
+
+ 	Input: x**6 + x**5 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 397:
+
+ 	Input: x**6 + x**5 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 398:
+
+ 	Input: x**6 + x**5 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 399:
+
+ 	Input: x**6 + x**5 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 400:
+
+ 	Input: x**6 + x**5 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 401:
+
+ 	Input: x**6 + x**5 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 402:
+
+ 	Input: x**6 + x**5 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 403:
+
+ 	Input: x**6 + x**5 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 404:
+
+ 	Input: x**6 + x**5 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 405:
+
+ 	Input: x**6 + x**5 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 406:
+
+ 	Input: x**6 + x**5 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 407:
+
+ 	Input: x**6 + x**5 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 408:
+
+ 	Input: x**6 + x**5 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 409:
+
+ 	Input: x**6 + x**5 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 410:
+
+ 	Input: x**6 + x**5 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 411:
+
+ 	Input: x**6 + x**5 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 412:
+
+ 	Input: x**6 + x**5 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 413:
+
+ 	Input: x**6 + x**5 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 414:
+
+ 	Input: x**6 + x**5 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 415:
+
+ 	Input: x**6 + x**5 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 416:
+
+ 	Input: x**6 + x**5 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 417:
+
+ 	Input: x**6 + x**5 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 418:
+
+ 	Input: x**6 + x**5 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 419:
+
+ 	Input: x**6 + x**5 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 420:
+
+ 	Input: x**6 + x**5 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 421:
+
+ 	Input: x**6 + x**5 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 422:
+
+ 	Input: x**6 + x**5 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 423:
+
+ 	Input: x**7
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 424:
+
+ 	Input: x**7 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 425:
+
+ 	Input: x**7 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 426:
+
+ 	Input: x**7 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 427:
+
+ 	Input: x**7 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 428:
+
+ 	Input: x**7 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 429:
+
+ 	Input: x**7 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 430:
+
+ 	Input: x**7 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 431:
+
+ 	Input: x**7 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 432:
+
+ 	Input: x**7 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 433:
+
+ 	Input: x**7 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 434:
+
+ 	Input: x**7 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 435:
+
+ 	Input: x**7 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 436:
+
+ 	Input: x**7 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 437:
+
+ 	Input: x**7 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 438:
+
+ 	Input: x**7 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 439:
+
+ 	Input: x**7 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 440:
+
+ 	Input: x**7 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 441:
+
+ 	Input: x**7 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 442:
+
+ 	Input: x**7 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 443:
+
+ 	Input: x**7 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 444:
+
+ 	Input: x**7 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 445:
+
+ 	Input: x**7 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 446:
+
+ 	Input: x**7 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 447:
+
+ 	Input: x**7 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 448:
+
+ 	Input: x**7 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 449:
+
+ 	Input: x**7 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 450:
+
+ 	Input: x**7 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 451:
+
+ 	Input: x**7 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 452:
+
+ 	Input: x**7 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 453:
+
+ 	Input: x**7 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 454:
+
+ 	Input: x**7 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 455:
+
+ 	Input: x**7 + x**5
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 456:
+
+ 	Input: x**7 + x**5 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 457:
+
+ 	Input: x**7 + x**5 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 458:
+
+ 	Input: x**7 + x**5 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 459:
+
+ 	Input: x**7 + x**5 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 460:
+
+ 	Input: x**7 + x**5 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 461:
+
+ 	Input: x**7 + x**5 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 462:
+
+ 	Input: x**7 + x**5 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 463:
+
+ 	Input: x**7 + x**5 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 464:
+
+ 	Input: x**7 + x**5 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 465:
+
+ 	Input: x**7 + x**5 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 466:
+
+ 	Input: x**7 + x**5 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 467:
+
+ 	Input: x**7 + x**5 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 468:
+
+ 	Input: x**7 + x**5 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 469:
+
+ 	Input: x**7 + x**5 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 470:
+
+ 	Input: x**7 + x**5 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 471:
+
+ 	Input: x**7 + x**5 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 472:
+
+ 	Input: x**7 + x**5 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 473:
+
+ 	Input: x**7 + x**5 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 474:
+
+ 	Input: x**7 + x**5 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 475:
+
+ 	Input: x**7 + x**5 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 476:
+
+ 	Input: x**7 + x**5 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 477:
+
+ 	Input: x**7 + x**5 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 478:
+
+ 	Input: x**7 + x**5 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 479:
+
+ 	Input: x**7 + x**5 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 480:
+
+ 	Input: x**7 + x**5 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 481:
+
+ 	Input: x**7 + x**5 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 482:
+
+ 	Input: x**7 + x**5 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 483:
+
+ 	Input: x**7 + x**5 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 484:
+
+ 	Input: x**7 + x**5 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 485:
+
+ 	Input: x**7 + x**5 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 486:
+
+ 	Input: x**7 + x**5 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 487:
+
+ 	Input: x**7 + x**6
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 488:
+
+ 	Input: x**7 + x**6 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 489:
+
+ 	Input: x**7 + x**6 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 490:
+
+ 	Input: x**7 + x**6 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 491:
+
+ 	Input: x**7 + x**6 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 492:
+
+ 	Input: x**7 + x**6 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 493:
+
+ 	Input: x**7 + x**6 + x**2 + x
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 494:
+
+ 	Input: x**7 + x**6 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 495:
+
+ 	Input: x**7 + x**6 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 496:
+
+ 	Input: x**7 + x**6 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 497:
+
+ 	Input: x**7 + x**6 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 498:
+
+ 	Input: x**7 + x**6 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 499:
+
+ 	Input: x**7 + x**6 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 500:
+
+ 	Input: x**7 + x**6 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 501:
+
+ 	Input: x**7 + x**6 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 502:
+
+ 	Input: x**7 + x**6 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 503:
+
+ 	Input: x**7 + x**6 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 504:
+
+ 	Input: x**7 + x**6 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 505:
+
+ 	Input: x**7 + x**6 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 506:
+
+ 	Input: x**7 + x**6 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 507:
+
+ 	Input: x**7 + x**6 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 508:
+
+ 	Input: x**7 + x**6 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 509:
+
+ 	Input: x**7 + x**6 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 510:
+
+ 	Input: x**7 + x**6 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 511:
+
+ 	Input: x**7 + x**6 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 512:
+
+ 	Input: x**7 + x**6 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 513:
+
+ 	Input: x**7 + x**6 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 514:
+
+ 	Input: x**7 + x**6 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 515:
+
+ 	Input: x**7 + x**6 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 516:
+
+ 	Input: x**7 + x**6 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 517:
+
+ 	Input: x**7 + x**6 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 518:
+
+ 	Input: x**7 + x**6 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 519:
+
+ 	Input: x**7 + x**6 + x**5
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 520:
+
+ 	Input: x**7 + x**6 + x**5 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 521:
+
+ 	Input: x**7 + x**6 + x**5 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 522:
+
+ 	Input: x**7 + x**6 + x**5 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 523:
+
+ 	Input: x**7 + x**6 + x**5 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 524:
+
+ 	Input: x**7 + x**6 + x**5 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 525:
+
+ 	Input: x**7 + x**6 + x**5 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 526:
+
+ 	Input: x**7 + x**6 + x**5 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 527:
+
+ 	Input: x**7 + x**6 + x**5 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 528:
+
+ 	Input: x**7 + x**6 + x**5 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 529:
+
+ 	Input: x**7 + x**6 + x**5 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 530:
+
+ 	Input: x**7 + x**6 + x**5 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 531:
+
+ 	Input: x**7 + x**6 + x**5 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 532:
+
+ 	Input: x**7 + x**6 + x**5 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 533:
+
+ 	Input: x**7 + x**6 + x**5 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 534:
+
+ 	Input: x**7 + x**6 + x**5 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 535:
+
+ 	Input: x**7 + x**6 + x**5 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 536:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 537:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 538:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 539:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 540:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 541:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 542:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 543:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 544:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 545:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 546:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 547:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 548:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 549:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 550:
+
+ 	Input: x**7 + x**6 + x**5 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 551:
+
+ 	Input: x**8
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 552:
+
+ 	Input: x**8 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 553:
+
+ 	Input: x**8 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 554:
+
+ 	Input: x**8 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 555:
+
+ 	Input: x**8 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 556:
+
+ 	Input: x**8 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 557:
+
+ 	Input: x**8 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 558:
+
+ 	Input: x**8 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 559:
+
+ 	Input: x**8 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 560:
+
+ 	Input: x**8 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 561:
+
+ 	Input: x**8 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 562:
+
+ 	Input: x**8 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 563:
+
+ 	Input: x**8 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 564:
+
+ 	Input: x**8 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 565:
+
+ 	Input: x**8 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 566:
+
+ 	Input: x**8 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 567:
+
+ 	Input: x**8 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 568:
+
+ 	Input: x**8 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 569:
+
+ 	Input: x**8 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 570:
+
+ 	Input: x**8 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 571:
+
+ 	Input: x**8 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 572:
+
+ 	Input: x**8 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 573:
+
+ 	Input: x**8 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 574:
+
+ 	Input: x**8 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 575:
+
+ 	Input: x**8 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 576:
+
+ 	Input: x**8 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 577:
+
+ 	Input: x**8 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 578:
+
+ 	Input: x**8 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 579:
+
+ 	Input: x**8 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 580:
+
+ 	Input: x**8 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 581:
+
+ 	Input: x**8 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 582:
+
+ 	Input: x**8 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 583:
+
+ 	Input: x**8 + x**5
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 584:
+
+ 	Input: x**8 + x**5 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 585:
+
+ 	Input: x**8 + x**5 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 586:
+
+ 	Input: x**8 + x**5 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 587:
+
+ 	Input: x**8 + x**5 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 588:
+
+ 	Input: x**8 + x**5 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 589:
+
+ 	Input: x**8 + x**5 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 590:
+
+ 	Input: x**8 + x**5 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 591:
+
+ 	Input: x**8 + x**5 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 592:
+
+ 	Input: x**8 + x**5 + x**3 + 1
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 593:
+
+ 	Input: x**8 + x**5 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 594:
+
+ 	Input: x**8 + x**5 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 595:
+
+ 	Input: x**8 + x**5 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 596:
+
+ 	Input: x**8 + x**5 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 597:
+
+ 	Input: x**8 + x**5 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 598:
+
+ 	Input: x**8 + x**5 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 599:
+
+ 	Input: x**8 + x**5 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 600:
+
+ 	Input: x**8 + x**5 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 601:
+
+ 	Input: x**8 + x**5 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 602:
+
+ 	Input: x**8 + x**5 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 603:
+
+ 	Input: x**8 + x**5 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 604:
+
+ 	Input: x**8 + x**5 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 605:
+
+ 	Input: x**8 + x**5 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 606:
+
+ 	Input: x**8 + x**5 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 607:
+
+ 	Input: x**8 + x**5 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 608:
+
+ 	Input: x**8 + x**5 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 609:
+
+ 	Input: x**8 + x**5 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 610:
+
+ 	Input: x**8 + x**5 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 611:
+
+ 	Input: x**8 + x**5 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 612:
+
+ 	Input: x**8 + x**5 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 613:
+
+ 	Input: x**8 + x**5 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 614:
+
+ 	Input: x**8 + x**5 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 615:
+
+ 	Input: x**8 + x**6
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 616:
+
+ 	Input: x**8 + x**6 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 617:
+
+ 	Input: x**8 + x**6 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 618:
+
+ 	Input: x**8 + x**6 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 619:
+
+ 	Input: x**8 + x**6 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 620:
+
+ 	Input: x**8 + x**6 + x**2 + 1
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 621:
+
+ 	Input: x**8 + x**6 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 622:
+
+ 	Input: x**8 + x**6 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 623:
+
+ 	Input: x**8 + x**6 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 624:
+
+ 	Input: x**8 + x**6 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 625:
+
+ 	Input: x**8 + x**6 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 626:
+
+ 	Input: x**8 + x**6 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 627:
+
+ 	Input: x**8 + x**6 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 628:
+
+ 	Input: x**8 + x**6 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 629:
+
+ 	Input: x**8 + x**6 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 630:
+
+ 	Input: x**8 + x**6 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 631:
+
+ 	Input: x**8 + x**6 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 632:
+
+ 	Input: x**8 + x**6 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 633:
+
+ 	Input: x**8 + x**6 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 634:
+
+ 	Input: x**8 + x**6 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 635:
+
+ 	Input: x**8 + x**6 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 636:
+
+ 	Input: x**8 + x**6 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 637:
+
+ 	Input: x**8 + x**6 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 638:
+
+ 	Input: x**8 + x**6 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 639:
+
+ 	Input: x**8 + x**6 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 640:
+
+ 	Input: x**8 + x**6 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 641:
+
+ 	Input: x**8 + x**6 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 642:
+
+ 	Input: x**8 + x**6 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 643:
+
+ 	Input: x**8 + x**6 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 644:
+
+ 	Input: x**8 + x**6 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 645:
+
+ 	Input: x**8 + x**6 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 646:
+
+ 	Input: x**8 + x**6 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 647:
+
+ 	Input: x**8 + x**6 + x**5
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 648:
+
+ 	Input: x**8 + x**6 + x**5 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 649:
+
+ 	Input: x**8 + x**6 + x**5 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 650:
+
+ 	Input: x**8 + x**6 + x**5 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 651:
+
+ 	Input: x**8 + x**6 + x**5 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 652:
+
+ 	Input: x**8 + x**6 + x**5 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 653:
+
+ 	Input: x**8 + x**6 + x**5 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 654:
+
+ 	Input: x**8 + x**6 + x**5 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 655:
+
+ 	Input: x**8 + x**6 + x**5 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 656:
+
+ 	Input: x**8 + x**6 + x**5 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 657:
+
+ 	Input: x**8 + x**6 + x**5 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 658:
+
+ 	Input: x**8 + x**6 + x**5 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 659:
+
+ 	Input: x**8 + x**6 + x**5 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 660:
+
+ 	Input: x**8 + x**6 + x**5 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 661:
+
+ 	Input: x**8 + x**6 + x**5 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 662:
+
+ 	Input: x**8 + x**6 + x**5 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 663:
+
+ 	Input: x**8 + x**6 + x**5 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 664:
+
+ 	Input: x**8 + x**6 + x**5 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 665:
+
+ 	Input: x**8 + x**6 + x**5 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 666:
+
+ 	Input: x**8 + x**6 + x**5 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 667:
+
+ 	Input: x**8 + x**6 + x**5 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 668:
+
+ 	Input: x**8 + x**6 + x**5 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 669:
+
+ 	Input: x**8 + x**6 + x**5 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 670:
+
+ 	Input: x**8 + x**6 + x**5 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 671:
+
+ 	Input: x**8 + x**6 + x**5 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 672:
+
+ 	Input: x**8 + x**6 + x**5 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 673:
+
+ 	Input: x**8 + x**6 + x**5 + x**4 + x**3 + x
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 674:
+
+ 	Input: x**8 + x**6 + x**5 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 675:
+
+ 	Input: x**8 + x**6 + x**5 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 676:
+
+ 	Input: x**8 + x**6 + x**5 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 677:
+
+ 	Input: x**8 + x**6 + x**5 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 678:
+
+ 	Input: x**8 + x**6 + x**5 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 679:
+
+ 	Input: x**8 + x**7
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 680:
+
+ 	Input: x**8 + x**7 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 681:
+
+ 	Input: x**8 + x**7 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 682:
+
+ 	Input: x**8 + x**7 + x + 1
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 683:
+
+ 	Input: x**8 + x**7 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 684:
+
+ 	Input: x**8 + x**7 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 685:
+
+ 	Input: x**8 + x**7 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 686:
+
+ 	Input: x**8 + x**7 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 687:
+
+ 	Input: x**8 + x**7 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 688:
+
+ 	Input: x**8 + x**7 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 689:
+
+ 	Input: x**8 + x**7 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 690:
+
+ 	Input: x**8 + x**7 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 691:
+
+ 	Input: x**8 + x**7 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 692:
+
+ 	Input: x**8 + x**7 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 693:
+
+ 	Input: x**8 + x**7 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 694:
+
+ 	Input: x**8 + x**7 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 695:
+
+ 	Input: x**8 + x**7 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 696:
+
+ 	Input: x**8 + x**7 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 697:
+
+ 	Input: x**8 + x**7 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 698:
+
+ 	Input: x**8 + x**7 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 699:
+
+ 	Input: x**8 + x**7 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 700:
+
+ 	Input: x**8 + x**7 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 701:
+
+ 	Input: x**8 + x**7 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 702:
+
+ 	Input: x**8 + x**7 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 703:
+
+ 	Input: x**8 + x**7 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 704:
+
+ 	Input: x**8 + x**7 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 705:
+
+ 	Input: x**8 + x**7 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 706:
+
+ 	Input: x**8 + x**7 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 707:
+
+ 	Input: x**8 + x**7 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 708:
+
+ 	Input: x**8 + x**7 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 709:
+
+ 	Input: x**8 + x**7 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 710:
+
+ 	Input: x**8 + x**7 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 711:
+
+ 	Input: x**8 + x**7 + x**5
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 712:
+
+ 	Input: x**8 + x**7 + x**5 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 713:
+
+ 	Input: x**8 + x**7 + x**5 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 714:
+
+ 	Input: x**8 + x**7 + x**5 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 715:
+
+ 	Input: x**8 + x**7 + x**5 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 716:
+
+ 	Input: x**8 + x**7 + x**5 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 717:
+
+ 	Input: x**8 + x**7 + x**5 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 718:
+
+ 	Input: x**8 + x**7 + x**5 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 719:
+
+ 	Input: x**8 + x**7 + x**5 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 720:
+
+ 	Input: x**8 + x**7 + x**5 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 721:
+
+ 	Input: x**8 + x**7 + x**5 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 722:
+
+ 	Input: x**8 + x**7 + x**5 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 723:
+
+ 	Input: x**8 + x**7 + x**5 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 724:
+
+ 	Input: x**8 + x**7 + x**5 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 725:
+
+ 	Input: x**8 + x**7 + x**5 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 726:
+
+ 	Input: x**8 + x**7 + x**5 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 727:
+
+ 	Input: x**8 + x**7 + x**5 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 728:
+
+ 	Input: x**8 + x**7 + x**5 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 729:
+
+ 	Input: x**8 + x**7 + x**5 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 730:
+
+ 	Input: x**8 + x**7 + x**5 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 731:
+
+ 	Input: x**8 + x**7 + x**5 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 732:
+
+ 	Input: x**8 + x**7 + x**5 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 733:
+
+ 	Input: x**8 + x**7 + x**5 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 734:
+
+ 	Input: x**8 + x**7 + x**5 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 735:
+
+ 	Input: x**8 + x**7 + x**5 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 736:
+
+ 	Input: x**8 + x**7 + x**5 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 737:
+
+ 	Input: x**8 + x**7 + x**5 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 738:
+
+ 	Input: x**8 + x**7 + x**5 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 739:
+
+ 	Input: x**8 + x**7 + x**5 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 740:
+
+ 	Input: x**8 + x**7 + x**5 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 741:
+
+ 	Input: x**8 + x**7 + x**5 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 742:
+
+ 	Input: x**8 + x**7 + x**5 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 743:
+
+ 	Input: x**8 + x**7 + x**6
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 744:
+
+ 	Input: x**8 + x**7 + x**6 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 745:
+
+ 	Input: x**8 + x**7 + x**6 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 746:
+
+ 	Input: x**8 + x**7 + x**6 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 747:
+
+ 	Input: x**8 + x**7 + x**6 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 748:
+
+ 	Input: x**8 + x**7 + x**6 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 749:
+
+ 	Input: x**8 + x**7 + x**6 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 750:
+
+ 	Input: x**8 + x**7 + x**6 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 751:
+
+ 	Input: x**8 + x**7 + x**6 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 752:
+
+ 	Input: x**8 + x**7 + x**6 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 753:
+
+ 	Input: x**8 + x**7 + x**6 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 754:
+
+ 	Input: x**8 + x**7 + x**6 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 755:
+
+ 	Input: x**8 + x**7 + x**6 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 756:
+
+ 	Input: x**8 + x**7 + x**6 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 757:
+
+ 	Input: x**8 + x**7 + x**6 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 758:
+
+ 	Input: x**8 + x**7 + x**6 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 759:
+
+ 	Input: x**8 + x**7 + x**6 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 760:
+
+ 	Input: x**8 + x**7 + x**6 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 761:
+
+ 	Input: x**8 + x**7 + x**6 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 762:
+
+ 	Input: x**8 + x**7 + x**6 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 763:
+
+ 	Input: x**8 + x**7 + x**6 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 764:
+
+ 	Input: x**8 + x**7 + x**6 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 765:
+
+ 	Input: x**8 + x**7 + x**6 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 766:
+
+ 	Input: x**8 + x**7 + x**6 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 767:
+
+ 	Input: x**8 + x**7 + x**6 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 768:
+
+ 	Input: x**8 + x**7 + x**6 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 769:
+
+ 	Input: x**8 + x**7 + x**6 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 770:
+
+ 	Input: x**8 + x**7 + x**6 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 771:
+
+ 	Input: x**8 + x**7 + x**6 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 772:
+
+ 	Input: x**8 + x**7 + x**6 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 773:
+
+ 	Input: x**8 + x**7 + x**6 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 774:
+
+ 	Input: x**8 + x**7 + x**6 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 775:
+
+ 	Input: x**8 + x**7 + x**6 + x**5
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 776:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 777:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 778:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 779:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 780:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 781:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 782:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 783:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 784:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 785:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 786:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 787:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 788:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 789:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 790:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**3 + x**2 + x + 1
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 791:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 792:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 793:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 794:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 795:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 796:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 797:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 798:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 799:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 800:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 801:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 802:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 803:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 804:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 805:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 806:
+
+ 	Input: x**8 + x**7 + x**6 + x**5 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 807:
+
+ 	Input: x**9
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 808:
+
+ 	Input: x**9 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 809:
+
+ 	Input: x**9 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 810:
+
+ 	Input: x**9 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 811:
+
+ 	Input: x**9 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 812:
+
+ 	Input: x**9 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 813:
+
+ 	Input: x**9 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 814:
+
+ 	Input: x**9 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 815:
+
+ 	Input: x**9 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 816:
+
+ 	Input: x**9 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 817:
+
+ 	Input: x**9 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 818:
+
+ 	Input: x**9 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 819:
+
+ 	Input: x**9 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 820:
+
+ 	Input: x**9 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 821:
+
+ 	Input: x**9 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 822:
+
+ 	Input: x**9 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 823:
+
+ 	Input: x**9 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 824:
+
+ 	Input: x**9 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 825:
+
+ 	Input: x**9 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 826:
+
+ 	Input: x**9 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 827:
+
+ 	Input: x**9 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 828:
+
+ 	Input: x**9 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 829:
+
+ 	Input: x**9 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 830:
+
+ 	Input: x**9 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 831:
+
+ 	Input: x**9 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 832:
+
+ 	Input: x**9 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 833:
+
+ 	Input: x**9 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 834:
+
+ 	Input: x**9 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 835:
+
+ 	Input: x**9 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 836:
+
+ 	Input: x**9 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 837:
+
+ 	Input: x**9 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 838:
+
+ 	Input: x**9 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 839:
+
+ 	Input: x**9 + x**5
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 840:
+
+ 	Input: x**9 + x**5 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 841:
+
+ 	Input: x**9 + x**5 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 842:
+
+ 	Input: x**9 + x**5 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 843:
+
+ 	Input: x**9 + x**5 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 844:
+
+ 	Input: x**9 + x**5 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 845:
+
+ 	Input: x**9 + x**5 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 846:
+
+ 	Input: x**9 + x**5 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 847:
+
+ 	Input: x**9 + x**5 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 848:
+
+ 	Input: x**9 + x**5 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 849:
+
+ 	Input: x**9 + x**5 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 850:
+
+ 	Input: x**9 + x**5 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 851:
+
+ 	Input: x**9 + x**5 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 852:
+
+ 	Input: x**9 + x**5 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 853:
+
+ 	Input: x**9 + x**5 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 854:
+
+ 	Input: x**9 + x**5 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 855:
+
+ 	Input: x**9 + x**5 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 856:
+
+ 	Input: x**9 + x**5 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 857:
+
+ 	Input: x**9 + x**5 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 858:
+
+ 	Input: x**9 + x**5 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 859:
+
+ 	Input: x**9 + x**5 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 860:
+
+ 	Input: x**9 + x**5 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 861:
+
+ 	Input: x**9 + x**5 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 862:
+
+ 	Input: x**9 + x**5 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 863:
+
+ 	Input: x**9 + x**5 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 864:
+
+ 	Input: x**9 + x**5 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 865:
+
+ 	Input: x**9 + x**5 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 866:
+
+ 	Input: x**9 + x**5 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 867:
+
+ 	Input: x**9 + x**5 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 868:
+
+ 	Input: x**9 + x**5 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 869:
+
+ 	Input: x**9 + x**5 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 870:
+
+ 	Input: x**9 + x**5 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 871:
+
+ 	Input: x**9 + x**6
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 872:
+
+ 	Input: x**9 + x**6 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 873:
+
+ 	Input: x**9 + x**6 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 874:
+
+ 	Input: x**9 + x**6 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 875:
+
+ 	Input: x**9 + x**6 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 876:
+
+ 	Input: x**9 + x**6 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 877:
+
+ 	Input: x**9 + x**6 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 878:
+
+ 	Input: x**9 + x**6 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 879:
+
+ 	Input: x**9 + x**6 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 880:
+
+ 	Input: x**9 + x**6 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 881:
+
+ 	Input: x**9 + x**6 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 882:
+
+ 	Input: x**9 + x**6 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 883:
+
+ 	Input: x**9 + x**6 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 884:
+
+ 	Input: x**9 + x**6 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 885:
+
+ 	Input: x**9 + x**6 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 886:
+
+ 	Input: x**9 + x**6 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 887:
+
+ 	Input: x**9 + x**6 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 888:
+
+ 	Input: x**9 + x**6 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 889:
+
+ 	Input: x**9 + x**6 + x**4 + x
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 890:
+
+ 	Input: x**9 + x**6 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 891:
+
+ 	Input: x**9 + x**6 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 892:
+
+ 	Input: x**9 + x**6 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 893:
+
+ 	Input: x**9 + x**6 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 894:
+
+ 	Input: x**9 + x**6 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 895:
+
+ 	Input: x**9 + x**6 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 896:
+
+ 	Input: x**9 + x**6 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 897:
+
+ 	Input: x**9 + x**6 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 898:
+
+ 	Input: x**9 + x**6 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 899:
+
+ 	Input: x**9 + x**6 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 900:
+
+ 	Input: x**9 + x**6 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 901:
+
+ 	Input: x**9 + x**6 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 902:
+
+ 	Input: x**9 + x**6 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 903:
+
+ 	Input: x**9 + x**6 + x**5
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 904:
+
+ 	Input: x**9 + x**6 + x**5 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 905:
+
+ 	Input: x**9 + x**6 + x**5 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 906:
+
+ 	Input: x**9 + x**6 + x**5 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 907:
+
+ 	Input: x**9 + x**6 + x**5 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 908:
+
+ 	Input: x**9 + x**6 + x**5 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 909:
+
+ 	Input: x**9 + x**6 + x**5 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 910:
+
+ 	Input: x**9 + x**6 + x**5 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 911:
+
+ 	Input: x**9 + x**6 + x**5 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 912:
+
+ 	Input: x**9 + x**6 + x**5 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 913:
+
+ 	Input: x**9 + x**6 + x**5 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 914:
+
+ 	Input: x**9 + x**6 + x**5 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 915:
+
+ 	Input: x**9 + x**6 + x**5 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 916:
+
+ 	Input: x**9 + x**6 + x**5 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 917:
+
+ 	Input: x**9 + x**6 + x**5 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 918:
+
+ 	Input: x**9 + x**6 + x**5 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 919:
+
+ 	Input: x**9 + x**6 + x**5 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 920:
+
+ 	Input: x**9 + x**6 + x**5 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 921:
+
+ 	Input: x**9 + x**6 + x**5 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 922:
+
+ 	Input: x**9 + x**6 + x**5 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 923:
+
+ 	Input: x**9 + x**6 + x**5 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 924:
+
+ 	Input: x**9 + x**6 + x**5 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 925:
+
+ 	Input: x**9 + x**6 + x**5 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 926:
+
+ 	Input: x**9 + x**6 + x**5 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 927:
+
+ 	Input: x**9 + x**6 + x**5 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 928:
+
+ 	Input: x**9 + x**6 + x**5 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 929:
+
+ 	Input: x**9 + x**6 + x**5 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 930:
+
+ 	Input: x**9 + x**6 + x**5 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 931:
+
+ 	Input: x**9 + x**6 + x**5 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 932:
+
+ 	Input: x**9 + x**6 + x**5 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 933:
+
+ 	Input: x**9 + x**6 + x**5 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 934:
+
+ 	Input: x**9 + x**6 + x**5 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 935:
+
+ 	Input: x**9 + x**7
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 936:
+
+ 	Input: x**9 + x**7 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 937:
+
+ 	Input: x**9 + x**7 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 938:
+
+ 	Input: x**9 + x**7 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 939:
+
+ 	Input: x**9 + x**7 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 940:
+
+ 	Input: x**9 + x**7 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 941:
+
+ 	Input: x**9 + x**7 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 942:
+
+ 	Input: x**9 + x**7 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 943:
+
+ 	Input: x**9 + x**7 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 944:
+
+ 	Input: x**9 + x**7 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 945:
+
+ 	Input: x**9 + x**7 + x**3 + x
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 946:
+
+ 	Input: x**9 + x**7 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 947:
+
+ 	Input: x**9 + x**7 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 948:
+
+ 	Input: x**9 + x**7 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 949:
+
+ 	Input: x**9 + x**7 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 950:
+
+ 	Input: x**9 + x**7 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 951:
+
+ 	Input: x**9 + x**7 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 952:
+
+ 	Input: x**9 + x**7 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 953:
+
+ 	Input: x**9 + x**7 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 954:
+
+ 	Input: x**9 + x**7 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 955:
+
+ 	Input: x**9 + x**7 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 956:
+
+ 	Input: x**9 + x**7 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 957:
+
+ 	Input: x**9 + x**7 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 958:
+
+ 	Input: x**9 + x**7 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 959:
+
+ 	Input: x**9 + x**7 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 960:
+
+ 	Input: x**9 + x**7 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 961:
+
+ 	Input: x**9 + x**7 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 962:
+
+ 	Input: x**9 + x**7 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 963:
+
+ 	Input: x**9 + x**7 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 964:
+
+ 	Input: x**9 + x**7 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 965:
+
+ 	Input: x**9 + x**7 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 966:
+
+ 	Input: x**9 + x**7 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 967:
+
+ 	Input: x**9 + x**7 + x**5
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 968:
+
+ 	Input: x**9 + x**7 + x**5 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 969:
+
+ 	Input: x**9 + x**7 + x**5 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 970:
+
+ 	Input: x**9 + x**7 + x**5 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 971:
+
+ 	Input: x**9 + x**7 + x**5 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 972:
+
+ 	Input: x**9 + x**7 + x**5 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 973:
+
+ 	Input: x**9 + x**7 + x**5 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 974:
+
+ 	Input: x**9 + x**7 + x**5 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 975:
+
+ 	Input: x**9 + x**7 + x**5 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 976:
+
+ 	Input: x**9 + x**7 + x**5 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 977:
+
+ 	Input: x**9 + x**7 + x**5 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 978:
+
+ 	Input: x**9 + x**7 + x**5 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 979:
+
+ 	Input: x**9 + x**7 + x**5 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 980:
+
+ 	Input: x**9 + x**7 + x**5 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 981:
+
+ 	Input: x**9 + x**7 + x**5 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 982:
+
+ 	Input: x**9 + x**7 + x**5 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 983:
+
+ 	Input: x**9 + x**7 + x**5 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 984:
+
+ 	Input: x**9 + x**7 + x**5 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 985:
+
+ 	Input: x**9 + x**7 + x**5 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 986:
+
+ 	Input: x**9 + x**7 + x**5 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 987:
+
+ 	Input: x**9 + x**7 + x**5 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 988:
+
+ 	Input: x**9 + x**7 + x**5 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 989:
+
+ 	Input: x**9 + x**7 + x**5 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 990:
+
+ 	Input: x**9 + x**7 + x**5 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 991:
+
+ 	Input: x**9 + x**7 + x**5 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 992:
+
+ 	Input: x**9 + x**7 + x**5 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 993:
+
+ 	Input: x**9 + x**7 + x**5 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 994:
+
+ 	Input: x**9 + x**7 + x**5 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 995:
+
+ 	Input: x**9 + x**7 + x**5 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 996:
+
+ 	Input: x**9 + x**7 + x**5 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 997:
+
+ 	Input: x**9 + x**7 + x**5 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 998:
+
+ 	Input: x**9 + x**7 + x**5 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 999:
+
+ 	Input: x**9 + x**7 + x**6
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1000:
+
+ 	Input: x**9 + x**7 + x**6 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1001:
+
+ 	Input: x**9 + x**7 + x**6 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1002:
+
+ 	Input: x**9 + x**7 + x**6 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1003:
+
+ 	Input: x**9 + x**7 + x**6 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1004:
+
+ 	Input: x**9 + x**7 + x**6 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1005:
+
+ 	Input: x**9 + x**7 + x**6 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1006:
+
+ 	Input: x**9 + x**7 + x**6 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1007:
+
+ 	Input: x**9 + x**7 + x**6 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1008:
+
+ 	Input: x**9 + x**7 + x**6 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1009:
+
+ 	Input: x**9 + x**7 + x**6 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1010:
+
+ 	Input: x**9 + x**7 + x**6 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1011:
+
+ 	Input: x**9 + x**7 + x**6 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1012:
+
+ 	Input: x**9 + x**7 + x**6 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1013:
+
+ 	Input: x**9 + x**7 + x**6 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1014:
+
+ 	Input: x**9 + x**7 + x**6 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1015:
+
+ 	Input: x**9 + x**7 + x**6 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1016:
+
+ 	Input: x**9 + x**7 + x**6 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1017:
+
+ 	Input: x**9 + x**7 + x**6 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1018:
+
+ 	Input: x**9 + x**7 + x**6 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1019:
+
+ 	Input: x**9 + x**7 + x**6 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1020:
+
+ 	Input: x**9 + x**7 + x**6 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1021:
+
+ 	Input: x**9 + x**7 + x**6 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1022:
+
+ 	Input: x**9 + x**7 + x**6 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1023:
+
+ 	Input: x**9 + x**7 + x**6 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1024:
+
+ 	Input: x**9 + x**7 + x**6 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1025:
+
+ 	Input: x**9 + x**7 + x**6 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1026:
+
+ 	Input: x**9 + x**7 + x**6 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1027:
+
+ 	Input: x**9 + x**7 + x**6 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1028:
+
+ 	Input: x**9 + x**7 + x**6 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1029:
+
+ 	Input: x**9 + x**7 + x**6 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1030:
+
+ 	Input: x**9 + x**7 + x**6 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1031:
+
+ 	Input: x**9 + x**7 + x**6 + x**5
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1032:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1033:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1034:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1035:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1036:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1037:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1038:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1039:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1040:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1041:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1042:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1043:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1044:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1045:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1046:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1047:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1048:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1049:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1050:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1051:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1052:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1053:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1054:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1055:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1056:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1057:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1058:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1059:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1060:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1061:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1062:
+
+ 	Input: x**9 + x**7 + x**6 + x**5 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1063:
+
+ 	Input: x**9 + x**8
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1064:
+
+ 	Input: x**9 + x**8 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1065:
+
+ 	Input: x**9 + x**8 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1066:
+
+ 	Input: x**9 + x**8 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1067:
+
+ 	Input: x**9 + x**8 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1068:
+
+ 	Input: x**9 + x**8 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1069:
+
+ 	Input: x**9 + x**8 + x**2 + x
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1070:
+
+ 	Input: x**9 + x**8 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1071:
+
+ 	Input: x**9 + x**8 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1072:
+
+ 	Input: x**9 + x**8 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1073:
+
+ 	Input: x**9 + x**8 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1074:
+
+ 	Input: x**9 + x**8 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1075:
+
+ 	Input: x**9 + x**8 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1076:
+
+ 	Input: x**9 + x**8 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1077:
+
+ 	Input: x**9 + x**8 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1078:
+
+ 	Input: x**9 + x**8 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1079:
+
+ 	Input: x**9 + x**8 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1080:
+
+ 	Input: x**9 + x**8 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1081:
+
+ 	Input: x**9 + x**8 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1082:
+
+ 	Input: x**9 + x**8 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1083:
+
+ 	Input: x**9 + x**8 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1084:
+
+ 	Input: x**9 + x**8 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1085:
+
+ 	Input: x**9 + x**8 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1086:
+
+ 	Input: x**9 + x**8 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1087:
+
+ 	Input: x**9 + x**8 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1088:
+
+ 	Input: x**9 + x**8 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1089:
+
+ 	Input: x**9 + x**8 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1090:
+
+ 	Input: x**9 + x**8 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1091:
+
+ 	Input: x**9 + x**8 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1092:
+
+ 	Input: x**9 + x**8 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1093:
+
+ 	Input: x**9 + x**8 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1094:
+
+ 	Input: x**9 + x**8 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1095:
+
+ 	Input: x**9 + x**8 + x**5
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1096:
+
+ 	Input: x**9 + x**8 + x**5 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1097:
+
+ 	Input: x**9 + x**8 + x**5 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1098:
+
+ 	Input: x**9 + x**8 + x**5 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1099:
+
+ 	Input: x**9 + x**8 + x**5 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1100:
+
+ 	Input: x**9 + x**8 + x**5 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1101:
+
+ 	Input: x**9 + x**8 + x**5 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1102:
+
+ 	Input: x**9 + x**8 + x**5 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1103:
+
+ 	Input: x**9 + x**8 + x**5 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1104:
+
+ 	Input: x**9 + x**8 + x**5 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1105:
+
+ 	Input: x**9 + x**8 + x**5 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1106:
+
+ 	Input: x**9 + x**8 + x**5 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1107:
+
+ 	Input: x**9 + x**8 + x**5 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1108:
+
+ 	Input: x**9 + x**8 + x**5 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1109:
+
+ 	Input: x**9 + x**8 + x**5 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1110:
+
+ 	Input: x**9 + x**8 + x**5 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1111:
+
+ 	Input: x**9 + x**8 + x**5 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1112:
+
+ 	Input: x**9 + x**8 + x**5 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1113:
+
+ 	Input: x**9 + x**8 + x**5 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1114:
+
+ 	Input: x**9 + x**8 + x**5 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1115:
+
+ 	Input: x**9 + x**8 + x**5 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1116:
+
+ 	Input: x**9 + x**8 + x**5 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1117:
+
+ 	Input: x**9 + x**8 + x**5 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1118:
+
+ 	Input: x**9 + x**8 + x**5 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1119:
+
+ 	Input: x**9 + x**8 + x**5 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1120:
+
+ 	Input: x**9 + x**8 + x**5 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1121:
+
+ 	Input: x**9 + x**8 + x**5 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1122:
+
+ 	Input: x**9 + x**8 + x**5 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1123:
+
+ 	Input: x**9 + x**8 + x**5 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1124:
+
+ 	Input: x**9 + x**8 + x**5 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1125:
+
+ 	Input: x**9 + x**8 + x**5 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1126:
+
+ 	Input: x**9 + x**8 + x**5 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1127:
+
+ 	Input: x**9 + x**8 + x**6
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1128:
+
+ 	Input: x**9 + x**8 + x**6 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1129:
+
+ 	Input: x**9 + x**8 + x**6 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1130:
+
+ 	Input: x**9 + x**8 + x**6 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1131:
+
+ 	Input: x**9 + x**8 + x**6 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1132:
+
+ 	Input: x**9 + x**8 + x**6 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1133:
+
+ 	Input: x**9 + x**8 + x**6 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1134:
+
+ 	Input: x**9 + x**8 + x**6 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1135:
+
+ 	Input: x**9 + x**8 + x**6 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1136:
+
+ 	Input: x**9 + x**8 + x**6 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1137:
+
+ 	Input: x**9 + x**8 + x**6 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1138:
+
+ 	Input: x**9 + x**8 + x**6 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1139:
+
+ 	Input: x**9 + x**8 + x**6 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1140:
+
+ 	Input: x**9 + x**8 + x**6 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1141:
+
+ 	Input: x**9 + x**8 + x**6 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1142:
+
+ 	Input: x**9 + x**8 + x**6 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1143:
+
+ 	Input: x**9 + x**8 + x**6 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1144:
+
+ 	Input: x**9 + x**8 + x**6 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1145:
+
+ 	Input: x**9 + x**8 + x**6 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1146:
+
+ 	Input: x**9 + x**8 + x**6 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1147:
+
+ 	Input: x**9 + x**8 + x**6 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1148:
+
+ 	Input: x**9 + x**8 + x**6 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1149:
+
+ 	Input: x**9 + x**8 + x**6 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1150:
+
+ 	Input: x**9 + x**8 + x**6 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1151:
+
+ 	Input: x**9 + x**8 + x**6 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1152:
+
+ 	Input: x**9 + x**8 + x**6 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1153:
+
+ 	Input: x**9 + x**8 + x**6 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1154:
+
+ 	Input: x**9 + x**8 + x**6 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1155:
+
+ 	Input: x**9 + x**8 + x**6 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1156:
+
+ 	Input: x**9 + x**8 + x**6 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1157:
+
+ 	Input: x**9 + x**8 + x**6 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1158:
+
+ 	Input: x**9 + x**8 + x**6 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1159:
+
+ 	Input: x**9 + x**8 + x**6 + x**5
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1160:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1161:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1162:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1163:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1164:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1165:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1166:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1167:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1168:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1169:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1170:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1171:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1172:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1173:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1174:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1175:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1176:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1177:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1178:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1179:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1180:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1181:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1182:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1183:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1184:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1185:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1186:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**4 + x**3 + x + 1
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1187:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1188:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1189:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1190:
+
+ 	Input: x**9 + x**8 + x**6 + x**5 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1191:
+
+ 	Input: x**9 + x**8 + x**7
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1192:
+
+ 	Input: x**9 + x**8 + x**7 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1193:
+
+ 	Input: x**9 + x**8 + x**7 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1194:
+
+ 	Input: x**9 + x**8 + x**7 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1195:
+
+ 	Input: x**9 + x**8 + x**7 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1196:
+
+ 	Input: x**9 + x**8 + x**7 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1197:
+
+ 	Input: x**9 + x**8 + x**7 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1198:
+
+ 	Input: x**9 + x**8 + x**7 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1199:
+
+ 	Input: x**9 + x**8 + x**7 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1200:
+
+ 	Input: x**9 + x**8 + x**7 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1201:
+
+ 	Input: x**9 + x**8 + x**7 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1202:
+
+ 	Input: x**9 + x**8 + x**7 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1203:
+
+ 	Input: x**9 + x**8 + x**7 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1204:
+
+ 	Input: x**9 + x**8 + x**7 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1205:
+
+ 	Input: x**9 + x**8 + x**7 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1206:
+
+ 	Input: x**9 + x**8 + x**7 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1207:
+
+ 	Input: x**9 + x**8 + x**7 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1208:
+
+ 	Input: x**9 + x**8 + x**7 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1209:
+
+ 	Input: x**9 + x**8 + x**7 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1210:
+
+ 	Input: x**9 + x**8 + x**7 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1211:
+
+ 	Input: x**9 + x**8 + x**7 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1212:
+
+ 	Input: x**9 + x**8 + x**7 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1213:
+
+ 	Input: x**9 + x**8 + x**7 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1214:
+
+ 	Input: x**9 + x**8 + x**7 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1215:
+
+ 	Input: x**9 + x**8 + x**7 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1216:
+
+ 	Input: x**9 + x**8 + x**7 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1217:
+
+ 	Input: x**9 + x**8 + x**7 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1218:
+
+ 	Input: x**9 + x**8 + x**7 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1219:
+
+ 	Input: x**9 + x**8 + x**7 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1220:
+
+ 	Input: x**9 + x**8 + x**7 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1221:
+
+ 	Input: x**9 + x**8 + x**7 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1222:
+
+ 	Input: x**9 + x**8 + x**7 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1223:
+
+ 	Input: x**9 + x**8 + x**7 + x**5
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1224:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1225:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1226:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1227:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1228:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1229:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1230:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1231:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1232:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1233:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1234:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1235:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1236:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1237:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1238:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1239:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1240:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1241:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1242:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1243:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1244:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1245:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1246:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1247:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1248:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1249:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1250:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1251:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1252:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1253:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1254:
+
+ 	Input: x**9 + x**8 + x**7 + x**5 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1255:
+
+ 	Input: x**9 + x**8 + x**7 + x**6
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1256:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1257:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1258:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1259:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1260:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1261:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1262:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1263:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1264:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1265:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1266:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1267:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1268:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1269:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1270:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**3 + x**2 + x + 1
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1271:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1272:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1273:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1274:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1275:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1276:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1277:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1278:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1279:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1280:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1281:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1282:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1283:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1284:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1285:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1286:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1287:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1288:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1289:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1290:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1291:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1292:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1293:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1294:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1295:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1296:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1297:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1298:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1299:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1300:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1301:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1302:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1303:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**4
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1304:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**4 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1305:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**4 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1306:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**4 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1307:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**4 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1308:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**4 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1309:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**4 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1310:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**4 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1311:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**4 + x**3
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1312:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**4 + x**3 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1313:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**4 + x**3 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1314:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**4 + x**3 + x + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1315:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**4 + x**3 + x**2
+	Output: Da thuc nay khong phai la da thuc toi gian
+
+Test case 1316:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**4 + x**3 + x**2 + 1
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1317:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**4 + x**3 + x**2 + x
+	Output: Da thuc nay la da thuc toi gian
+
+Test case 1318:
+
+ 	Input: x**9 + x**8 + x**7 + x**6 + x**5 + x**4 + x**3 + x**2 + x + 1
+	Output: Da thuc nay la da thuc toi gian
