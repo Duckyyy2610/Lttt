@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58eb05f3-a56a-4463-b6ac-a157bac47c6d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FITSP23B21DCCN236CNDHW0106/FITSP23B21DCCN236CNDHW0106(input 1).txt" beforeDir="false" afterPath="$PROJECT_DIR$/FITSP23B21DCCN236CNDHW0106/FITSP23B21DCCN236CNDHW0106(input).txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FITSP23B21DCCN236CNDHW0106/FITSP23B21DCCN236CNDHW0106(input 2).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FITSP23B21DCCN236CNDHW0106/FITSP23B21DCCN236CNDHW0106(input 3).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FITSP23B21DCCN236CNDHW0106/FITSP23B21DCCN236CNDHW0106(input 4).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FITSP23B21DCCN236CNDHW0106/FITSP23B21DCCN236CNDHW0106(output 1).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FITSP23B21DCCN236CNDHW0106/FITSP23B21DCCN236CNDHW0106(output 2).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FITSP23B21DCCN236CNDHW0106/FITSP23B21DCCN236CNDHW0106(output 3).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FITSP23B21DCCN236CNDHW0106/FITSP23B21DCCN236CNDHW0106(output 4).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FITSP23B21DCCN236CNDHW0106/FITSP23B21DCCN236CNDHW0106.py" beforeDir="false" afterPath="$PROJECT_DIR$/FITSP23B21DCCN236CNDHW0106/FITSP23B21DCCN236CNDHW0106.py" afterDir="false" />
-    </list>
+    <list default="true" id="58eb05f3-a56a-4463-b6ac-a157bac47c6d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
