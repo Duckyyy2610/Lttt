@@ -5,6 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58eb05f3-a56a-4463-b6ac-a157bac47c6d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FITSP23B21DCCN236CNDHW0106/FITSP23B21DCCN236CNDHW0106(input 1).txt" beforeDir="false" afterPath="$PROJECT_DIR$/FITSP23B21DCCN236CNDHW0106/FITSP23B21DCCN236CNDHW0106(input).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FITSP23B21DCCN236CNDHW0106/FITSP23B21DCCN236CNDHW0106(input 2).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FITSP23B21DCCN236CNDHW0106/FITSP23B21DCCN236CNDHW0106(input 3).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FITSP23B21DCCN236CNDHW0106/FITSP23B21DCCN236CNDHW0106(input 4).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FITSP23B21DCCN236CNDHW0106/FITSP23B21DCCN236CNDHW0106(output 1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FITSP23B21DCCN236CNDHW0106/FITSP23B21DCCN236CNDHW0106(output 2).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FITSP23B21DCCN236CNDHW0106/FITSP23B21DCCN236CNDHW0106(output 3).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FITSP23B21DCCN236CNDHW0106/FITSP23B21DCCN236CNDHW0106(output 4).txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FITSP23B21DCCN236CNDHW0106/FITSP23B21DCCN236CNDHW0106.py" beforeDir="false" afterPath="$PROJECT_DIR$/FITSP23B21DCCN236CNDHW0106/FITSP23B21DCCN236CNDHW0106.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,15 +36,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/hk2/lttt/btl/FITSP23B21DCCN236CNDHW0102&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/hk2/lttt/btl/FITSP23B21DCCN236CNDHW0106"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\hk2\lttt\btl\FITSP23B21DCCN236CNDHW0106" />
+      <recent name="C:\hk2\lttt\btl\FITSP23B21DCCN236CNDHW0102" />
       <recent name="C:\hk2\lttt\btl\bn04" />
       <recent name="C:\hk2\lttt\btl\bn04\input" />
     </key>
