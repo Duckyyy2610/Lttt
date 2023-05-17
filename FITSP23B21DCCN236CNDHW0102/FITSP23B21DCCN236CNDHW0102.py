@@ -46,6 +46,10 @@ def generate_huffman_codes(node, code="", codes={}):
         generate_huffman_codes(node.right, code + "1", codes)
     return codes
 
+def build_huffman(symbol_probabilities):
+    root_node = build_huffman_tree(symbol_probabilities)
+    huffman_codes = generate_huffman_codes(root_node)
+    return huffman_codes
 
 def traverse(node):
     if node is None:
@@ -97,13 +101,15 @@ def calculate_variance(avg_length, probabilities, codewords):
     return variance
 
 
-def write_file(file_to_write, output):
+def write_file(file_to_write, mode, part, testcase, input, output):
     output_path = file_to_write
-    with open(output_path, 'w') as f:
-        f.write(str(output))
+    with open(output_path, mode) as file:
+        file.write(part)
+        file.write(testcase)
+        file.write(f'\n\tInput: {input} \tOutput: {output}\n')
 
 
-def write_file_2(file_to_write, huffman_codes, probabilities):
+def write_file_2(file_to_write, mode, part, testcase, input, huffman_codes, probabilities):
     output_path = file_to_write
     elsym = list(probabilities.keys())
     elprob = [float(round(x, 5)) for x in probabilities.values()]
@@ -120,19 +126,18 @@ def write_file_2(file_to_write, huffman_codes, probabilities):
                    'isNewLess': 1,
                    'isLeftBranchZero': 1,
                    })
-    with open(output_path, 'w') as file:
-        file.write('{\n')
+    with open(output_path, mode) as file:
+        file.write(part)
+        file.write(testcase)
+        file.write(f'\n\tInput:\n\t{input} \n\tOutput:')
+        file.write('\n\t{\n')
         for k, v in output.items():
-            file.write('\'' + str(k) + '\'' + ': ')
+            file.write('\t\t\'' + str(k) + '\'' + ': ')
             file.write('\'' + str(v) + '\'' + '\n')
-        file.write('}')
+        file.write('\t}\n')
 
 
 if __name__ == "__main__":
-    huffman_codes_1 = {}  # phần 1
-    huffman_codes_2 = {}  # phần 2
-    decoded_string = ''
-
     # 1) Mã hóa biểu diễn nguồn theo phương pháp mã hóa Huffman
     symbol_probabilities = {
         'x_1': 0.125,
@@ -141,68 +146,108 @@ if __name__ == "__main__":
         'x_4': 0.5
     }
 
-    root_node = build_huffman_tree(symbol_probabilities)
-    # traverse(root_node)
-    huffman_codes = generate_huffman_codes(root_node)
-    huffman_codes_1 = huffman_codes.copy()
-    huffman_codes.clear()
+    huffman_code = build_huffman(symbol_probabilities)
+    huffman_code_1 = huffman_code.copy()
+    # Lưu vào file phần 1
+    write_file_2('FITSP23B21DCCN236CNDHW0102(output).txt',
+                 'w',
+                 '1) Ma hoa bieu dien nguon theo phuong phap ma hoa huffman\n',
+                 '',
+                 str(symbol_probabilities),
+                 build_huffman(symbol_probabilities),
+                 symbol_probabilities)
+    huffman_code.clear()
 
     # 2)Sử dụng hàm ở 1) thực hiện mã hóa một văn bản ký tự đọc vào từ file *.txt
-    with open('FITSP23B21DCCN236CNDHW0102.txt', 'r') as file:
+    test_list_2 = []
+    symbol_probabilities_list = []
+    huffman_codes_list = []
+    pos = 0
+    with open('FITSP23B21DCCN236CNDHW0102(input).txt', 'r') as file:
         read_file = file.readlines()
-        symbol_probabilities_2 = calculate_the_probability(read_file)
-        root_node = build_huffman_tree(symbol_probabilities_2)
-        huffman_codes = generate_huffman_codes(root_node)
-        huffman_codes_2 = huffman_codes.copy()
-        huffman_codes.clear()
+        # Tách các test
+        read_ = ""
+        for i, read in enumerate(read_file):
+            if 'Test case' in read and read_:
+                test_list_2.append(read_)
+                read_ = ""
+            elif '3)' in read:
+                test_list_2.append(read_)
+                pos = i
+                break
+            elif '2)' not in read and 'Test case' not in read:
+                read_ += '\t' + read
 
-    # 3) Giải mã cho một chuỗi mã cho trước được nhập từ bàn phím hoặc đọc từ file FITSP23B21DCCN236CNDHW0102 (decode).txt;
-    # Sử dụng file FITSP23B21DCCN236CNDHW0102 (a-z character).txt để lấy ví dụ các kí tự sẽ được mã hóa như nào
-    huffman_codes_from_atoz = {}
-    with open('FITSP23B21DCCN236CNDHW0102 (a-z, space, endline characters).txt',
-              'r') as file:
-        read_file = file.readlines()
-        symbol_probabilities_3 = calculate_the_probability(read_file)
-        root_node = build_huffman_tree(symbol_probabilities_3)
-        huffman_codes_from_atoz = dict(sorted(generate_huffman_codes(root_node).items()))
-        # print(huffman_codes_from_atoz)
 
-    # Giải mã từ file FITSP23B21DCCN236CNDHW0102 (decode).txt
-    with open('FITSP23B21DCCN236CNDHW0102 (decode).txt', 'r') as file:
-        read_file = file.readlines()
-        code = read_file
-
-        reverse_huffman_code = {v: k for k, v in huffman_codes_from_atoz.items()}
-
-        # root_node = build_huffman_tree({k: 1 for k in huffman_codes_from_atoz.keys()})
-        huffman_codes = generate_huffman_codes(root_node)
-
-        for word in code:
-            decoded_bit = ""
-            for bit in word:
-                decoded_bit += bit
-                if decoded_bit in reverse_huffman_code:
-                    decoded_string += reverse_huffman_code[decoded_bit]
-                    decoded_bit = ""
-
-        mapping_character_and_code = {}
-        for x in decoded_string:
-            mapping_character_and_code.update({x: huffman_codes_from_atoz[x]})
-        symbol_probabilities_4 = calculate_the_probability(decoded_string)
-
-    # 4, 5) Tính toán tham số, lưu vào file và hiển thị thông tin từ hảm write_file_2
-
-    # Lưu vào file phần 1
-    write_file_2('FITSP23B21DCCN236CNDHW0102(output 1).txt', huffman_codes_1,
-                 symbol_probabilities)
+        for test in test_list_2:
+            # print(test)
+            symbol_probabilities = calculate_the_probability(test)
+            symbol_probabilities_list.append(symbol_probabilities)
+            huffman_codes_list.append(build_huffman(symbol_probabilities))
 
     # Lưu vào file phần 2
-    write_file_2('FITSP23B21DCCN236CNDHW0102(output 2).txt', huffman_codes_2,
-                 symbol_probabilities_2)
+    for i,test in enumerate(test_list_2):
+        part = ""
+        if i==0:
+            part += '\n2) Su dung ham o 1) ma hoa 1 van ban doc tu file\n'
+        write_file_2('FITSP23B21DCCN236CNDHW0102(output).txt',
+                    'a',
+                     part,
+                    f'\nTest case {i+1}:\n',
+                     test,
+                     huffman_codes_list[i],
+                     symbol_probabilities_list[i])
+
+    #3) Giải mã dãy bit
+    huffman_code = {'\n': '1010000', ' ': '001', 'a': '1011', 'b': '1100', 'c': '1111', 'd': '0001',
+                    'e': '011011', 'f': '0101', 'g': '01100', 'h': '011100', 'i': '1010001', 'j': '101001',
+                    'k': '011110', 'l': '011111', 'm': '11011', 'n': '00000', 'o': '10101', 'p': '1110',
+                    'q': '011010', 'r': '11010', 's': '1000', 't': '010001', 'u': '010010', 'v': '1001',
+                    'w': '010011', 'x': '00001', 'y': '011101', 'z': '010000'}
+    # print(huffman_code)
+    with open('FITSP23B21DCCN236CNDHW0102(input).txt', 'r') as file:
+        read_file = file.readlines()
+        test_list_3 = []
+        read = ""
+        for i in range(pos+1, len(read_file)):
+            # print(read_file[i])
+            if 'Test case' in read_file[i] and read_file[i]:
+                test_list_3.append(read)
+                read = ""
+            else:
+                read += read_file[i]
+            if i == len(read_file)-1:
+                test_list_3.append(read)
+                break
+        reverse_huffman_code = {v: k for k, v in huffman_code.items()}
+        # root_node = build_huffman_tree({k: 1 for k in huffman_code.keys()})
+        # huffman_codes = generate_huffman_codes(root_node)
+        # print(huffman_codes)
+        decoded_string_list = []
+        for test in test_list_3:
+            if test:
+                decoded_string = ""
+                # print(test[0:len(test)-1])
+                decoded_bit = ""
+                for word in test:
+                    decoded_bit += word
+                    # print(decoded_bit,end='')
+                    if decoded_bit in reverse_huffman_code:
+                        decoded_string += reverse_huffman_code[decoded_bit]
+                        decoded_bit = ""
+                # print(decoded_string)
+                decoded_string_list.append(decoded_string)
+        # print(decoded_string_list)
 
     # Lưu vào file phần 3
-    write_file('FITSP23B21DCCN236CNDHW0102(output 3).txt', decoded_string)
+    for i, decode in enumerate(decoded_string_list):
+        part = ""
+        if not i:
+            part += '\n3) Giai ma tu file\n'
+        write_file('FITSP23B21DCCN236CNDHW0102(output).txt',
+                   'a',
+                   part,
+                   f'\nTest case {i+1}:\n',
+                   test_list_3[i+1],
+                   decode)
 
-    # Lưu vào file phần 3 khi đã giải mã
-    write_file_2('FITSP23B21DCCN236CNDHW0102(output 4).txt',
-                 mapping_character_and_code, symbol_probabilities_4)

@@ -1,0 +1,64 @@
+2)Su dung ham o 1) ma hoa 1 van ban doc tu file txt
+Test case 1:
+NIIGATA, Japan -- Group of Seven finance ministers will take measures to prevent future bank failures like that of
+based Silicon Valley Bank in the U.S., according to a draft of their final statement to be released on Saturday,
+Nikkei has learned.The bloc's finance chiefs and central bank governors, who are wrapping up a three-day meeting,
+will also reaffirm that "our financial system is resilient," noting the effectiveness of regulatory reforms
+implemented after the 2008 global financial crisis.However, the group's planned statement will also point to a
+need to "address data, supervisory and regulatory gaps in the banking system."Depositors rushed to pull their
+savings out of Silicon Valley Bank, which collapsed in March, underscoring the threat of bank runs. It was one of
+several U.S. lenders to have collapsed recently.Measures designed to prevent a repeat have been on the agenda for
+discussion at the G-7 meeting in the Japanese city of Niigata.The Financial Stability Board, an international body
+including banking authorities from major countries, is analyzing problems that led to the banking turmoil. The G-7
+will stress support for the body's ongoing efforts to "draw out lessons learned from the recent episodes," the draft said.
+Test case 2:
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
+and going through the cites of the word in classical literature, discovered the undoubtable source.
+Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil)
+by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Test case 3:
+There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a
+passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first
+true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model
+sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always
+free from repetition, injected humour, or non-characteristic words etc.
+Test case 4:
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at
+its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
+to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and
+web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many
+web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
+purpose (injected humour and the like).
+Test case 5:
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+of Lorem Ipsum.
+3) Giai ma day bit
+Test case 1:
+1011111100010110110101011100011111
+Test case 2:
+1011111100010110110101011100011111
+Test case 3:
+01111110100011011111100010110110101011100
+Test case 4:
+110110000011101010001011010
+Test case 5:
+0111100111111010111010
+Test case 6:
+1001010010010001110101000011010
+Test case 7:
+10101111011010100001000100000
+Test case 8:
+110101110
+Test case 9:
+01101010101111011010100001000100000011010
+Test case 10:
+011010101011110

@@ -1,0 +1,186 @@
+1) Ma hoa bieu dien nguon theo phuong phap ma hoa huffman
+
+	Input:
+	{'x_1': 0.125, 'x_2': 0.25, 'x_3': 0.125, 'x_4': 0.5} 
+	Output:
+	{
+		'source': 'X'
+		'elsym': '['x_1', 'x_2', 'x_3', 'x_4']'
+		'elprob': '[0.125, 0.25, 0.125, 0.5]'
+		'elcodeword': '['000', '01', '001', '1']'
+		'avg_l': '1.75'
+		'sigma_l_2': '0.6875'
+		'isNewLess': '1'
+		'isLeftBranchZero': '1'
+	}
+
+2) Su dung ham o 1) ma hoa 1 van ban doc tu file
+
+Test case 1:
+
+	Input:
+		NIIGATA, Japan -- Group of Seven finance ministers will take measures to prevent future bank failures like that of
+	based Silicon Valley Bank in the U.S., according to a draft of their final statement to be released on Saturday,
+	Nikkei has learned.The bloc's finance chiefs and central bank governors, who are wrapping up a three-day meeting,
+	will also reaffirm that "our financial system is resilient," noting the effectiveness of regulatory reforms
+	implemented after the 2008 global financial crisis.However, the group's planned statement will also point to a
+	need to "address data, supervisory and regulatory gaps in the banking system."Depositors rushed to pull their
+	savings out of Silicon Valley Bank, which collapsed in March, underscoring the threat of bank runs. It was one of
+	several U.S. lenders to have collapsed recently.Measures designed to prevent a repeat have been on the agenda for
+	discussion at the G-7 meeting in the Japanese city of Niigata.The Financial Stability Board, an international body
+	including banking authorities from major countries, is analyzing problems that led to the banking turmoil. The G-7
+	will stress support for the body's ongoing efforts to "draw out lessons learned from the recent episodes," the draft said.
+ 
+	Output:
+	{
+		'source': 'X'
+		'elsym': '['\t', 'N', 'I', 'G', 'A', 'T', ',', ' ', 'J', 'a', 'p', 'n', '-', 'r', 'o', 'u', 'f', 'S', 'e', 'v', 'i', 'c', 'm', 's', 't', 'w', 'l', 'k', 'b', 'h', '\n', 'd', 'V', 'y', 'B', 'U', '.', 'g', "'", '"', '2', '0', '8', 'H', 'D', 'M', '7', 'F', 'j', 'z']'
+		'elprob': '[0.00871, 0.00238, 0.00238, 0.00317, 0.00158, 0.00317, 0.01029, 0.14568, 0.00158, 0.07126, 0.01821, 0.06413, 0.00396, 0.05305, 0.05384, 0.01979, 0.02375, 0.00554, 0.09501, 0.00871, 0.0578, 0.01979, 0.01346, 0.05305, 0.06572, 0.00792, 0.04038, 0.0095, 0.01188, 0.02613, 0.00871, 0.02692, 0.00158, 0.01188, 0.00238, 0.00158, 0.0095, 0.01821, 0.00238, 0.00475, 0.00079, 0.00158, 0.00079, 0.00079, 0.00079, 0.00158, 0.00158, 0.00079, 0.00079, 0.00079]'
+		'elcodeword': '['0110011', '0111010', '010', '01111101', '111001010', '001000100', '11000000', '1110001', '11000110', '1110000', '1000100', '11100100', '110101000', '01111100', '011111101', '111001011', '111001101', '111011001', '1110110101', '111001100', '111001110', '00011010', '110001111', '1110110111', '001000000', '100101000', '100101010', '100100100', '0111000', '101001100', '0001110', '10001010', '001000011', '111001111', '011111111', '100100110', '110001110', '101001110', '001000011', '1001', '0001111', '000110', '11001', '101', '0111001', '011000', '11000', '1101', '001000101', '100011', '11110', '11111', '0000', '01111', '00010', '01101', '0010', '0011', '11101', '0110010', '0111011', '10001011', '10000', '0111100010']'
+		'avg_l': '8.36408'
+		'sigma_l_2': '1.322546596915072'
+		'isNewLess': '1'
+		'isLeftBranchZero': '1'
+	}
+
+Test case 2:
+
+	Input:
+		Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+	literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+	College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
+	and going through the cites of the word in classical literature, discovered the undoubtable source.
+	Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil)
+	by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+	The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+ 
+	Output:
+	{
+		'source': 'X'
+		'elsym': '['\t', 'C', 'o', 'n', 't', 'r', 'a', 'y', ' ', 'p', 'u', 'l', 'b', 'e', 'i', 'f', ',', 'L', 'm', 'I', 's', 'd', 'x', '.', 'h', 'c', '\n', '4', '5', 'B', 'k', 'g', 'v', '2', '0', 'R', 'M', 'H', '-', 'S', 'V', 'w', '1', '3', '"', 'F', '(', 'T', 'E', 'G', ')']'
+		'elprob': '[0.00908, 0.00778, 0.07652, 0.0441, 0.05318, 0.05707, 0.04669, 0.01038, 0.15824, 0.01946, 0.02594, 0.02724, 0.00908, 0.07912, 0.05707, 0.01816, 0.01556, 0.01038, 0.03243, 0.00649, 0.05058, 0.02335, 0.00259, 0.01816, 0.01946, 0.02724, 0.00908, 0.00259, 0.00259, 0.00389, 0.00519, 0.01038, 0.00519, 0.00389, 0.00778, 0.00259, 0.00259, 0.0013, 0.0013, 0.0013, 0.0013, 0.00389, 0.00778, 0.00519, 0.00519, 0.0013, 0.0013, 0.00389, 0.00259, 0.0013, 0.0013]'
+		'elcodeword': '['0110011', '0111010', '010', '01111101', '111001010', '001000100', '11000000', '1110001', '11000110', '1110000', '1000100', '11100100', '110101000', '01111100', '011111101', '111001011', '111001101', '111011001', '1110110101', '111001100', '111001110', '00011010', '110001111', '1110110111', '001000000', '100101000', '100101010', '100100100', '0111000', '101001100', '0001110', '10001010', '001000011', '111001111', '011111111', '100100110', '110001110', '101001110', '001000011', '1001', '0001111', '000110', '11001', '101', '0111001', '011000', '11000', '1101', '001000101', '100011', '11110', '11111', '0000', '01111', '00010', '01101', '0010', '0011', '11101', '0110010', '0111011', '10001011', '10000', '0111100010']'
+		'avg_l': '7.910810000000002'
+		'sigma_l_2': '2.896078380494245'
+		'isNewLess': '1'
+		'isLeftBranchZero': '1'
+	}
+
+Test case 3:
+
+	Input:
+		There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+	form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a
+	passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+	All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first
+	true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model
+	sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always
+	free from repetition, injected humour, or non-characteristic words etc.
+ 
+	Output:
+	{
+		'source': 'X'
+		'elsym': '['\t', 'T', 'h', 'e', 'r', ' ', 'a', 'm', 'n', 'y', 'v', 'i', 't', 'o', 's', 'f', 'p', 'g', 'L', 'I', 'u', 'l', 'b', ',', 'j', 'd', '\n', 'c', 'w', "'", 'k', '.', 'x', 'A', '2', '0', '-']'
+		'elprob': '[0.00923, 0.00264, 0.03298, 0.11478, 0.06596, 0.1504, 0.05409, 0.03034, 0.05541, 0.01319, 0.00792, 0.04485, 0.06596, 0.06464, 0.05277, 0.02111, 0.01319, 0.01583, 0.00792, 0.01187, 0.0277, 0.02111, 0.01187, 0.01187, 0.00396, 0.02902, 0.00923, 0.01847, 0.00923, 0.00264, 0.00528, 0.0066, 0.00132, 0.00132, 0.00132, 0.00264, 0.00132]'
+		'elcodeword': '['0110011', '0111010', '010', '01111101', '111001010', '001000100', '11000000', '1110001', '11000110', '1110000', '1000100', '11100100', '110101000', '01111100', '011111101', '111001011', '111001101', '111011001', '1110110101', '111001100', '111001110', '00011010', '110001111', '1110110111', '001000000', '100101000', '100101010', '100100100', '0111000', '101001100', '0001110', '10001010', '001000011', '111001111', '011111111', '100100110', '110001110', '101001110', '001000011', '1001', '0001111', '000110', '11001', '101', '0111001', '011000', '11000', '1101', '001000101', '100011', '11110', '11111', '0000', '01111', '00010', '01101', '0010', '0011', '11101', '0110010', '0111011', '10001011', '10000', '0111100010']'
+		'avg_l': '8.304589999999997'
+		'sigma_l_2': '1.3965156075986378'
+		'isNewLess': '1'
+		'isLeftBranchZero': '1'
+	}
+
+Test case 4:
+
+	Input:
+		It is a long established fact that a reader will be distracted by the readable content of a page when looking at
+	its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
+	to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and
+	web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many
+	web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
+	purpose (injected humour and the like).
+ 
+	Output:
+	{
+		'source': 'X'
+		'elsym': '['\t', 'I', 't', ' ', 'i', 's', 'a', 'l', 'o', 'n', 'g', 'e', 'b', 'h', 'd', 'f', 'c', 'r', 'w', 'y', 'p', 'k', '\n', 'u', '.', 'T', 'L', 'm', '-', ',', "'", 'C', 'E', 'M', 'x', 'v', 'V', '(', 'j', ')']'
+		'elprob': '[0.00968, 0.00484, 0.06774, 0.15806, 0.05806, 0.06129, 0.06129, 0.03871, 0.06129, 0.05, 0.01613, 0.1, 0.01613, 0.02903, 0.02903, 0.01129, 0.01774, 0.04355, 0.00968, 0.01129, 0.02097, 0.01129, 0.00968, 0.02419, 0.00645, 0.00161, 0.00323, 0.02581, 0.00323, 0.00968, 0.00645, 0.00161, 0.00161, 0.00161, 0.00161, 0.00968, 0.00161, 0.00161, 0.00161, 0.00161]'
+		'elcodeword': '['0110011', '0111010', '010', '01111101', '111001010', '001000100', '11000000', '1110001', '11000110', '1110000', '1000100', '11100100', '110101000', '01111100', '011111101', '111001011', '111001101', '111011001', '1110110101', '111001100', '111001110', '00011010', '110001111', '1110110111', '001000000', '100101000', '100101010', '100100100', '0111000', '101001100', '0001110', '10001010', '001000011', '111001111', '011111111', '100100110', '110001110', '101001110', '001000011', '1001', '0001111', '000110', '11001', '101', '0111001', '011000', '11000', '1101', '001000101', '100011', '11110', '11111', '0000', '01111', '00010', '01101', '0010', '0011', '11101', '0110010', '0111011', '10001011', '10000', '0111100010']'
+		'avg_l': '7.938549999999999'
+		'sigma_l_2': '2.32517348597795'
+		'isNewLess': '1'
+		'isLeftBranchZero': '1'
+	}
+
+Test case 5:
+
+	Input:
+		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+	standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+	a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+	remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+	Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+	of Lorem Ipsum.
+ 
+	Output:
+	{
+		'source': 'X'
+		'elsym': '['\t', 'L', 'o', 'r', 'e', 'm', ' ', 'I', 'p', 's', 'u', 'i', 'l', 'y', 'd', 't', 'x', 'f', 'h', 'n', 'g', 'a', '.', 'b', "'", '\n', 'v', 'c', '1', '5', '0', ',', 'w', 'k', '9', '6', 'A', 'P', 'M']'
+		'elprob': '[0.01033, 0.00861, 0.04303, 0.04131, 0.10155, 0.03098, 0.1463, 0.01033, 0.03098, 0.06713, 0.02926, 0.05508, 0.02926, 0.02238, 0.02754, 0.07401, 0.00344, 0.01033, 0.0241, 0.0654, 0.01893, 0.04819, 0.00688, 0.00861, 0.00172, 0.01033, 0.00861, 0.01721, 0.00344, 0.00172, 0.00516, 0.00688, 0.01033, 0.01205, 0.00172, 0.00172, 0.00172, 0.00172, 0.00172]'
+		'elcodeword': '['0110011', '0111010', '010', '01111101', '111001010', '001000100', '11000000', '1110001', '11000110', '1110000', '1000100', '11100100', '110101000', '01111100', '011111101', '111001011', '111001101', '111011001', '1110110101', '111001100', '111001110', '00011010', '110001111', '1110110111', '001000000', '100101000', '100101010', '100100100', '0111000', '101001100', '0001110', '10001010', '001000011', '111001111', '011111111', '100100110', '110001110', '101001110', '001000011', '1001', '0001111', '000110', '11001', '101', '0111001', '011000', '11000', '1101', '001000101', '100011', '11110', '11111', '0000', '01111', '00010', '01101', '0010', '0011', '11101', '0110010', '0111011', '10001011', '10000', '0111100010']'
+		'avg_l': '8.154980000000002'
+		'sigma_l_2': '1.7557462365880048'
+		'isNewLess': '1'
+		'isLeftBranchZero': '1'
+	}
+
+3) Giai ma tu file
+
+Test case 1:
+
+	Input: 1011111100010110110101011100011111
+ 	Output: acdefhl
+
+Test case 2:
+
+	Input: 1011111100010110110101011100011111
+ 	Output: acdefhl
+
+Test case 3:
+
+	Input: 01111110100011011111100010110110101011100
+ 	Output: liacdefh
+
+Test case 4:
+
+	Input: 110110000011101010001011010
+ 	Output: mnpiq
+
+Test case 5:
+
+	Input: 0111100111111010111010
+ 	Output: klor
+
+Test case 6:
+
+	Input: 1001010010010001110101000011010
+ 	Output: vutrsq
+
+Test case 7:
+
+	Input: 10101111011010100001000100000
+ 	Output: oprstn
+
+Test case 8:
+
+	Input: 110101110
+ 	Output: rp
+
+Test case 9:
+
+	Input: 01101010101111011010100001000100000011010
+ 	Output: qoprstnq
+
+Test case 10:
+
+	Input: 011010101011110
+ 	Output: qop
