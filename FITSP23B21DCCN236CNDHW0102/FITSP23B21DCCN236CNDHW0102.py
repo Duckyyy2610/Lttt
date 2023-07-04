@@ -1,10 +1,3 @@
-# Đặng Minh Đức
-# B21DCCN236
-# Lý thuyết thông tin
-# Nhóm G05
-# Bài 2
-
-
 import os
 from functools import cmp_to_key
 import math
