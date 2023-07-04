@@ -1,10 +1,3 @@
-#Đặng Minh Đức
-# B21DCCN236
-# Lý thuyết thông tin
-# Nhóm G05
-# Bài 6
-
-
 from sympy import *
 from sympy import symbols, Poly, gcd, div
 import random
