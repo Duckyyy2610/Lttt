@@ -1,10 +1,3 @@
-#Đặng Minh Đức
-# B21DCCN236
-# Lý thuyết thông tin
-# Nhóm G05
-# Bài 4
-
-
 import numpy as np
 import collections
 def is_uniform_code(codes):
