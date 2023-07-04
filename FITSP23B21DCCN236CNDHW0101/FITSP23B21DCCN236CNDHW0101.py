@@ -1,9 +1,3 @@
-#Đặng Minh Đức
-# B21DCCN236
-# Lý thuyết thông tin
-# Nhóm G05
-# Bài 1
-
 
 import pandas as pd
 import openpyxl
