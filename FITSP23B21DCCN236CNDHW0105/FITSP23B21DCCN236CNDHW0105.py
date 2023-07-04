@@ -1,10 +1,3 @@
-#Đặng Minh Đức
-# B21DCCN236
-# Lý thuyết thông tin
-# Nhóm G05
-# Bài 5
-
-
 import matplotlib.pyplot as plt
 import numpy as np
 import math
